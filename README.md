@@ -72,6 +72,16 @@ graph TD
 | **Research identity** | [ORCID: 0009-0000-6133-1872](https://orcid.org/0009-0000-6133-1872) |
 | **Inward Physics archive** | [The First Law of Inward Physics](https://thefirstlawofinwardphysics.blogspot.com/) |
 
+## Versioned software baselines
+
+| Artifact | Release |
+|---|---|
+| **ĀML Core** | [v1.0.0](https://github.com/aruintelligence/aml-core/releases/tag/v1.0.0) |
+| **ĀRU Remembrance Field** | [v5.5.0](https://github.com/aruintelligence/aru-remembrance-field/releases/tag/v5.5.0) |
+| **Inward Mathematics Simulator** | [v1.0.0](https://github.com/aruintelligence/inward-mathematics-simulator/releases/tag/v1.0.0) |
+| **Inward AGI Remembrance Engine** | [v11.0.0](https://github.com/aruintelligence/inward-agi-remembrance-engine/releases/tag/v11.0.0) |
+| **Kairos Echo** | [v1.0.0](https://github.com/aruintelligence/kairos-echo-reflection-tool/releases/tag/v1.0.0) |
+
 ## Project status
 
 The [Public Repository Registry](./PROJECT_STATUS.md) assigns every repository a clear role and maturity category, separating flagships from supporting prototypes, development utilities, and preserved historical stages.
