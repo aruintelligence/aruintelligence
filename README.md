@@ -23,16 +23,23 @@ Our public repositories are inspectable research artifacts: working code, intera
 
 > **Remembrance → Coherence → Orientation → Accountable Action**
 
+## Start here
+
+- **Experience the interface idea:** [open the ĀML live demo](https://aruintelligence.github.io/aml-core/).
+- **Explore the memory-field visualization:** [open the ĀRU Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/).
+- **Understand the body of work:** read the [repository registry](./PROJECT_STATUS.md).
+- **Evaluate the evidence:** read the [research standards](./RESEARCH_STANDARDS.md) and [reproducibility framework](./REPRODUCIBILITY.md).
+
 ## Flagship research
 
-| Project | Research question | Explore |
-|---|---|---|
-| **[ĀML Core](https://github.com/aruintelligence/aml-core)** | Can an interface evaluate whether an element should consume attention before rendering it? | [Live demo](https://aruintelligence.github.io/aml-core/) |
-| **[ĀRU Remembrance Field](https://github.com/aruintelligence/aru-remembrance-field)** | How can memory-field and coherence dynamics become visible and interactive? | [Live field](https://aruintelligence.github.io/aru-remembrance-field/) |
-| **[Inward Mathematics Simulator](https://github.com/aruintelligence/inward-mathematics-simulator)** | Can identity preservation and multi-observer agreement be modeled geometrically? | [Live simulator](https://aruintelligence.github.io/inward-mathematics-simulator/) |
-| **[Inward AGI Remembrance Engine](https://github.com/aruintelligence/inward-agi-remembrance-engine)** | What does a browser-native, memory-first symbolic instrument look like? | [Repository](https://github.com/aruintelligence/inward-agi-remembrance-engine) |
-| **[Divine Whisper Ecosystem](https://github.com/aruintelligence/divine-whisper-ecosystem)** | How did the agentic orchestration architecture evolve across its research lineage? | [Version map](https://github.com/aruintelligence/divine-whisper-ecosystem#divine-whisper-lineage) |
-| **[Kairos Echo](https://github.com/aruintelligence/kairos-echo-reflection-tool)** | How can reproducible coherence dynamics support careful reflection? | [Repository](https://github.com/aruintelligence/kairos-echo-reflection-tool) |
+| Project | Research question | Maturity | Explore |
+|---|---|---|---|
+| **[ĀML Core](https://github.com/aruintelligence/aml-core)** | Can an interface evaluate whether an element should consume attention before rendering it? | Research prototype | [Live demo](https://aruintelligence.github.io/aml-core/) |
+| **[ĀRU Remembrance Field](https://github.com/aruintelligence/aru-remembrance-field)** | How can memory-field and coherence dynamics become visible and interactive? | Interactive simulation | [Live field](https://aruintelligence.github.io/aru-remembrance-field/) |
+| **[Inward Mathematics Simulator](https://github.com/aruintelligence/inward-mathematics-simulator)** | Can identity preservation and multi-observer agreement be modeled geometrically? | Source-only prototype | [Repository](https://github.com/aruintelligence/inward-mathematics-simulator) |
+| **[Inward AGI Remembrance Engine](https://github.com/aruintelligence/inward-agi-remembrance-engine)** | What does a browser-native, memory-first symbolic instrument look like? | Source-only prototype | [Repository](https://github.com/aruintelligence/inward-agi-remembrance-engine) |
+| **[Divine Whisper Ecosystem](https://github.com/aruintelligence/divine-whisper-ecosystem)** | How did the agentic orchestration architecture evolve across its research lineage? | Canonical index | [Version map](https://github.com/aruintelligence/divine-whisper-ecosystem#divine-whisper-lineage) |
+| **[Kairos Echo](https://github.com/aruintelligence/kairos-echo-reflection-tool)** | How can reproducible coherence dynamics support careful reflection? | Research prototype | [Repository](https://github.com/aruintelligence/kairos-echo-reflection-tool) |
 
 ## Research architecture
 
@@ -97,9 +104,9 @@ The [Public Repository Registry](./PROJECT_STATUS.md) assigns every repository a
 
 ## Research standards and contribution
 
-Public work follows the [ĀRU Public Research Standards](./RESEARCH_STANDARDS.md), which distinguish implemented behavior, simulation, observation, hypothesis, metaphor, and validation.
+Public work follows the [ĀRU Public Research Standards](./RESEARCH_STANDARDS.md), which distinguish implemented behavior, simulation, observation, hypothesis, metaphor, and validation. The [reproducibility framework](./REPRODUCIBILITY.md) defines what evidence should accompany each maturity level.
 
-Contributions are welcome through the [contribution guide](./CONTRIBUTING.md). Reproducible bug reports, tests, accessibility work, documentation corrections, replication attempts, counterexamples, and responsible security reports are especially valuable.
+Contributions are welcome through the [contribution guide](./CONTRIBUTING.md). Reproducible bug reports, tests, accessibility work, documentation corrections, replication attempts, counterexamples, and responsible security reports are especially valuable. Please use the [security policy](./SECURITY.md) for private vulnerability disclosure.
 
 ## Collaborate
 
