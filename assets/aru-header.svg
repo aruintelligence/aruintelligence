@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ĀRU Intelligence — Remembrance First</title>
+  <desc id="desc">A dark futuristic field with luminous cyan and gold arcs surrounding the ĀRU Intelligence name.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset=".52" stop-color="#0b1630"/>
+      <stop offset="1" stop-color="#07121b"/>
+    </linearGradient>
+    <radialGradient id="field" cx=".5" cy=".5" r=".62">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset=".46" stop-color="#38bdf8" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#f5c451"/>
+      <stop offset=".8" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#7dd3fc" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#field)"/>
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="600" cy="180" rx="430" ry="118" stroke="#22d3ee" stroke-opacity=".18"/>
+    <ellipse cx="600" cy="180" rx="350" ry="88" stroke="#f5c451" stroke-opacity=".2"/>
+    <path d="M130 215C340 95 450 278 600 177S870 85 1070 205" stroke="#22d3ee" stroke-opacity=".34" stroke-width="2"/>
+    <path d="M155 151C360 260 475 85 600 180s295 92 445-20" stroke="#f5c451" stroke-opacity=".28" stroke-width="2"/>
+  </g>
+  <g fill="#e0f2fe">
+    <circle cx="183" cy="202" r="3"/><circle cx="281" cy="125" r="2"/><circle cx="930" cy="112" r="3"/><circle cx="1022" cy="212" r="2"/>
+  </g>
+  <line x1="235" y1="251" x2="965" y2="251" stroke="url(#line)" stroke-width="2" filter="url(#glow)"/>
+  <text x="600" y="160" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="11">ĀRU</text>
+  <text x="600" y="208" text-anchor="middle" fill="#bae6fd" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="600" letter-spacing="9">INTELLIGENCE</text>
+  <text x="600" y="291" text-anchor="middle" fill="#f5c451" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="6">REMEMBRANCE FIRST™</text>
+</svg>
