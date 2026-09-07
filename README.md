@@ -36,18 +36,15 @@ Our public repositories are inspectable research artifacts: working code, intera
 
 ## Research architecture
 
-```text
-                    ĀRU INTELLIGENCE
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-   Meaning-native     Memory-field      Agentic systems
-     computing        mathematics       and governance
-          │                │                │
-       ĀML Core      Inward Physics     Divine Whisper
-                           │
-                 Remembrance engines
-                    and Kairos Echo
+```mermaid
+graph TD
+    A["ĀRU Intelligence"] --> B["Meaning-native computing"]
+    A --> C["Memory-field mathematics"]
+    A --> D["Agentic systems and governance"]
+    B --> E["ĀML Core"]
+    C --> F["Inward Physics and remembrance engines"]
+    D --> G["Divine Whisper"]
+    F --> H["Kairos Echo"]
 ```
 
 ## Core principles
