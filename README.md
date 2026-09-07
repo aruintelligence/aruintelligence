@@ -91,6 +91,12 @@ graph TD
 
 - [Divine Whisper canonical index](https://github.com/aruintelligence/divine-whisper-ecosystem) — complete v2–v10.7 map, supporting components, authorship, and scope
 
+## Research standards and contribution
+
+Public work follows the [ĀRU Public Research Standards](./RESEARCH_STANDARDS.md), which distinguish implemented behavior, simulation, observation, hypothesis, metaphor, and validation.
+
+Contributions are welcome through the [contribution guide](./CONTRIBUTING.md). Reproducible bug reports, tests, accessibility work, documentation corrections, replication attempts, counterexamples, and responsible security reports are especially valuable.
+
 ## Collaborate
 
 We welcome technically serious discussion, independent replication, constructive criticism, research collaboration, responsible licensing conversations, and applied-development inquiries.
