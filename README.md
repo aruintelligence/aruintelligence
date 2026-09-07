@@ -108,6 +108,10 @@ Public work follows the [ĀRU Public Research Standards](./RESEARCH_STANDARDS.md
 
 Contributions are welcome through the [contribution guide](./CONTRIBUTING.md). Reproducible bug reports, tests, accessibility work, documentation corrections, replication attempts, counterexamples, and responsible security reports are especially valuable. Please use the [security policy](./SECURITY.md) for private vulnerability disclosure.
 
+## Independent replication
+
+The [ĀRU Independent Replication Challenge](./REPLICATION_CHALLENGE.md) provides exact baseline procedures for the six flagship research tracks. Confirmed reproductions, reproducible failures, accessibility findings, numerical anomalies, parser counterexamples, and careful negative results are all welcome.
+
 ## Collaborate
 
 We welcome technically serious discussion, independent replication, constructive criticism, research collaboration, responsible licensing conversations, and applied-development inquiries.
