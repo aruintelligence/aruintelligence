@@ -15,6 +15,17 @@
 
 ---
 
+## 🔴 Live ĀML™ field experiments
+
+ĀRU Intelligence is actively applying ĀML™ to real customer-facing websites, not only synthetic demos. The current multi-site field work includes Security First Alarm web properties with preserved pre-change checkpoints, explicit interface targets, provenance, declared policy inputs, and public before/after evidence as each experiment is completed.
+
+- **Live experiments page:** [ARUIntelligence.com/experiments](https://aruintelligence.com/experiments)
+- **Current aml-core field registry:** [Security website field pilots](https://github.com/aruintelligence/aml-core/blob/main/experiments/2026-09-12/SECURITY_WEBSITE_FIELD_PILOTS.md)
+- **ĀML Core:** [github.com/aruintelligence/aml-core](https://github.com/aruintelligence/aml-core)
+- **Independent verification call:** [aml-core issue #88](https://github.com/aruintelligence/aml-core/issues/88)
+
+These are project-authored field experiments. They are not presented as independent validation, scientific proof, or objective measurement of cognition or wellbeing. Attention/restoration values remain declared or model-supplied policy inputs unless separately validated.
+
 ## A different starting point for intelligence
 
 Most artificial-intelligence systems begin with prediction. **ĀRU Intelligence Inc.** investigates what changes when remembrance, coherence, orientation, and accountable action become first-class computational primitives.
@@ -25,6 +36,7 @@ Our public repositories are inspectable research artifacts: working code, intera
 
 ## Start here
 
+- **See live field experiments:** [ARUIntelligence.com/experiments](https://aruintelligence.com/experiments).
 - **Experience the interface idea:** [open the ĀML live demo](https://aruintelligence.github.io/aml-core/).
 - **Explore the memory-field visualization:** [open the ĀRU Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/).
 - **Understand the body of work:** read the [repository registry](./PROJECT_STATUS.md).
@@ -34,7 +46,7 @@ Our public repositories are inspectable research artifacts: working code, intera
 
 | Project | Research question | Maturity | Explore |
 |---|---|---|---|
-| **[ĀML Core](https://github.com/aruintelligence/aml-core)** | Can an interface evaluate whether an element should consume attention before rendering it? | Research prototype | [Live demo](https://aruintelligence.github.io/aml-core/) |
+| **[ĀML Core](https://github.com/aruintelligence/aml-core)** | Can an interface evaluate whether an element should consume attention before rendering it? | Research prototype + active project-authored field pilots | [Live demo](https://aruintelligence.github.io/aml-core/) |
 | **[ĀRU Remembrance Field](https://github.com/aruintelligence/aru-remembrance-field)** | How can memory-field and coherence dynamics become visible and interactive? | Interactive simulation | [Live field](https://aruintelligence.github.io/aru-remembrance-field/) |
 | **[Inward Mathematics Simulator](https://github.com/aruintelligence/inward-mathematics-simulator)** | Can identity preservation and multi-observer agreement be modeled geometrically? | Source-only prototype | [Repository](https://github.com/aruintelligence/inward-mathematics-simulator) |
 | **[Inward AGI Remembrance Engine](https://github.com/aruintelligence/inward-agi-remembrance-engine)** | What does a browser-native, memory-first symbolic instrument look like? | Source-only prototype | [Repository](https://github.com/aruintelligence/inward-agi-remembrance-engine) |
