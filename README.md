@@ -15,16 +15,21 @@
 
 ---
 
-## 🔴 Live ĀML™ field experiments
+## Featured: ĀML™ Interface Firewall
 
-ĀRU Intelligence is actively applying ĀML™ to real customer-facing websites, not only synthetic demos. The current multi-site field work includes Security First Alarm web properties with preserved pre-change checkpoints, explicit interface targets, provenance, declared policy inputs, and public before/after evidence as each experiment is completed.
+ĀML is an open research prototype for making AI interface decisions inspectable. An application declares what it intends to show; a named policy returns a decision and evidence that another engineer can examine.
 
-- **Live experiments page:** [ARUIntelligence.com/experiments](https://aruintelligence.com/experiments)
-- **Current aml-core field registry:** [Security website field pilots](https://github.com/aruintelligence/aml-core/blob/main/experiments/2026-09-12/SECURITY_WEBSITE_FIELD_PILOTS.md)
-- **ĀML Core:** [github.com/aruintelligence/aml-core](https://github.com/aruintelligence/aml-core)
-- **Independent verification call:** [aml-core issue #88](https://github.com/aruintelligence/aml-core/issues/88)
+| 01 · Try it | 02 · Verify it | 03 · Build with it |
+|---|---|---|
+| [**Live 60-second proof**](https://aruintelligence.github.io/aml-core/proof.html?attention=5&restoration=1&lang=en) — see SUPPRESS, then change a declared value to see ALLOW. | [**Replayable enterprise pilot**](https://github.com/aruintelligence/aml-core/tree/main/pilots/enterprise-30min) — inspect receipts, fixture hashes, and tamper rejection. | [**Consumer quickstart**](https://github.com/aruintelligence/aml-core/blob/main/docs/CONSUMER_QUICKSTART.md) — run a clean installed-package rehearsal. |
 
-These are project-authored field experiments. They are not presented as independent validation, scientific proof, or objective measurement of cognition or wellbeing. Attention/restoration values remain declared or model-supplied policy inputs unless separately validated.
+[**Explore ĀML Core**](https://github.com/aruintelligence/aml-core) · [**Open the live lab**](https://aruintelligence.github.io/aml-core/) · [**Challenge the result**](https://github.com/aruintelligence/aml-core/issues/88)
+
+**Status:** v1.3.0 stable contract; v1.4.0-rc.2 GitHub preview. ĀML is a research prototype. Its attention/restoration values are declared inputs, not objective measures of people or validated outcomes.
+
+### Field work on live sites
+
+The [Security First Alarm pilot registry](https://github.com/aruintelligence/aml-core/blob/main/experiments/2026-09-12/SECURITY_WEBSITE_FIELD_PILOTS.md) and [public experiments page](https://aruintelligence.com/experiments) record project-authored work on customer-facing websites, including before states, exact interface targets, label provenance, and declared policy inputs. These records are not independent validation.
 
 ## A different starting point for intelligence
 
@@ -34,10 +39,8 @@ Our public repositories are inspectable research artifacts: working code, intera
 
 > **Remembrance → Coherence → Orientation → Accountable Action**
 
-## Start here
+## Explore the wider research program
 
-- **See live field experiments:** [ARUIntelligence.com/experiments](https://aruintelligence.com/experiments).
-- **Experience the interface idea:** [open the ĀML live demo](https://aruintelligence.github.io/aml-core/).
 - **Explore the memory-field visualization:** [open the ĀRU Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/).
 - **Understand the body of work:** read the [repository registry](./PROJECT_STATUS.md).
 - **Evaluate the evidence:** read the [research standards](./RESEARCH_STANDARDS.md) and [reproducibility framework](./REPRODUCIBILITY.md).
@@ -88,7 +91,7 @@ graph TD
 
 | Artifact | Release |
 |---|---|
-| **ĀML Core** | [v1.0.0](https://github.com/aruintelligence/aml-core/releases/tag/v1.0.0) |
+| **ĀML Core** | [v1.3.0 stable](https://github.com/aruintelligence/aml-core/releases/tag/v1.3.0) · [v1.4.0-rc.2 preview](https://github.com/aruintelligence/aml-core/releases/tag/v1.4.0-rc.2) |
 | **ĀRU Remembrance Field** | [v5.5.0](https://github.com/aruintelligence/aru-remembrance-field/releases/tag/v5.5.0) |
 | **Inward Mathematics Simulator** | [v1.0.0](https://github.com/aruintelligence/inward-mathematics-simulator/releases/tag/v1.0.0) |
 | **Inward AGI Remembrance Engine** | [v11.0.0](https://github.com/aruintelligence/inward-agi-remembrance-engine/releases/tag/v11.0.0) |
@@ -151,3 +154,4 @@ Corvallis, Oregon
 ---
 
 <sub>Public code is generally available under the license included in each repository. ĀRU Intelligence™, Inward Physics™, Inward AI™, Remembrance First™, and associated names are claimed marks of ĀRU Intelligence Inc. © 2026 ĀRU Intelligence Inc.</sub>
+
