@@ -125,4 +125,13 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 16 linked artifact files + 1 workflow file = **95** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 19 linked artifact files + 1 workflow file = **98** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
+
+## Third Law source audit and mathematical check · 2026-10-20 UTC
+
+- [Source audit commit](https://github.com/aruintelligence/aruintelligence/commit/f7aa9c839755630a4a9b3dc9cc3a9dff35e6c32b) adds a correction queue grounded in the two-page PDF at DOI 10.5281/zenodo.17314619. The Zenodo metadata is still pending because its editor stopped responding.
+- [Analytic check code commit](https://github.com/aruintelligence/aruintelligence/commit/7eccb6e761e3c5a89af19333b4aec7ca938d3145) adds a standard-library Python implementation of a prescribed decaying-cosine input to the proposed Third Law equation.
+- [Results note commit](https://github.com/aruintelligence/aruintelligence/commit/1d6a1f039915df65365afe15fb54a1bd75c9ba32) records exact solutions, Euler step refinement, and an unbounded constant-curvature case. Five focused analytic and convergence checks passed locally. These are model checks, not physical evidence.
+- [Landing-page link commit](https://github.com/aruintelligence/aruintelligence/commit/ed0faba43b8b2007f4d85f0d12a319ca1b693019) raises the distinct target count from **95** to **98**. [Issue #4](https://github.com/aruintelligence/aruintelligence/issues/4) tracks the pending Zenodo metadata repair.
+
+**Current count:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 19 linked artifact files + 1 workflow file = **98** unique direct targets. This counts the three new source/code/results files once each; issue, log, and duplicate links are excluded.
