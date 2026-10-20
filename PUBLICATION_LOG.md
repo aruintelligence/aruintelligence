@@ -16,10 +16,15 @@
 | Publication log initial registry | [a54d97375d1d](https://github.com/aruintelligence/aruintelligence/commit/a54d97375d1dd3b83751e1d9ad4fcaf67fcddd5f) | 84 |
 | 3 and 6 · Record full sweep | [137a6823119e](https://github.com/aruintelligence/aruintelligence/commit/137a6823119e0d47b23eb439c23a8b533b30a23a) | 84 |
 | Reading path · Challenge the model | [10343d7c4007](https://github.com/aruintelligence/aruintelligence/commit/10343d7c4007dad6e742561e9c79b7f14f7fc70f) | 84 |
+| Audit · Independent checker | [9a393450a264](https://github.com/aruintelligence/aruintelligence/commit/9a393450a2646a3b345a8b657ec2883a81dfcc42) | 84 until linked |
+| Audit · Recorded JSON | [6983ac640f54](https://github.com/aruintelligence/aruintelligence/commit/6983ac640f54bb43feefdf916dcde01a094d9b94) | 84 until linked |
+| Audit · Methods and limitations | [aae4c83ef0e8](https://github.com/aruintelligence/aruintelligence/commit/aae4c83ef0e86df55af5cbea99fe86c0886d3c84) | 84 until linked |
+| Audit · Link three files on landing | [845447481e06](https://github.com/aruintelligence/aruintelligence/commit/845447481e067d7676e3dc59abf5eb192c045a2b) | 87 |
+| Profile · Update artifact milestone | [cb0be98b9de1](https://github.com/aruintelligence/aruintelligence/commit/cb0be98b9de17945cadd2eea84cc453f3396396c) | 87 |
 
 ## Cross-link commits
 
-Each row is an independent commit adding the standard landing/ORCID/Zenodo-index footer. The distinct linked-artifact count reached **84** when the six artifact files were linked and remains **84** through the metadata sweep.
+Each row is an independent commit adding the standard landing/ORCID/Zenodo-index footer. The distinct linked-artifact count reached **84** after the first six artifact files were linked and **87** after the three audit files were linked.
 
 | # | Repository | Commit |
 |---:|---|---|
@@ -60,11 +65,12 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 | 35 | [divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui](https://github.com/aruintelligence/divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui) | [00325cfdec04](https://github.com/aruintelligence/divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui/commit/00325cfdec04c04fd553d4fb165a585559732760) |
 | 36 | [divine-whisper-merge-helper](https://github.com/aruintelligence/divine-whisper-merge-helper) | [55ef07963878](https://github.com/aruintelligence/divine-whisper-merge-helper/commit/55ef07963878012b469fc7f58dc92f0a89e62b9c) |
 
-## Day 1 issue and metadata
+## Issues and metadata
 
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
+- [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) asks for a matched-time comparison of the inclusive periodic grid and a synthetic clipping case; the new audit makes these limits inspectable.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 6 linked artifact files = **84** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 9 linked artifact files = **87** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
