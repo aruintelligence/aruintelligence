@@ -17,10 +17,15 @@
 | 3 and 6 · Record full sweep | [137a6823119e](https://github.com/aruintelligence/aruintelligence/commit/137a6823119e0d47b23eb439c23a8b533b30a23a) | 84 |
 | Reading path · Challenge the model | [10343d7c4007](https://github.com/aruintelligence/aruintelligence/commit/10343d7c4007dad6e742561e9c79b7f14f7fc70f) | 84 |
 | Audit · Independent checker | [9a393450a264](https://github.com/aruintelligence/aruintelligence/commit/9a393450a2646a3b345a8b657ec2883a81dfcc42) | 84 until linked |
-| Audit · Recorded JSON | [6983ac640f54](https://github.com/aruintelligence/aruintelligence/commit/6983ac640f54bb43feefdf916dcde01a094d9b94) | 84 until linked |
+| Audit · Initial JSON file (empty; corrected below) | [6983ac640f54](https://github.com/aruintelligence/aruintelligence/commit/6983ac640f54bb43feefdf916dcde01a094d9b94) | 84 until linked |
 | Audit · Methods and limitations | [aae4c83ef0e8](https://github.com/aruintelligence/aruintelligence/commit/aae4c83ef0e86df55af5cbea99fe86c0886d3c84) | 84 until linked |
 | Audit · Link three files on landing | [845447481e06](https://github.com/aruintelligence/aruintelligence/commit/845447481e067d7676e3dc59abf5eb192c045a2b) | 87 |
 | Profile · Update artifact milestone | [cb0be98b9de1](https://github.com/aruintelligence/aruintelligence/commit/cb0be98b9de17945cadd2eea84cc453f3396396c) | 87 |
+| Audit · Restore nonempty JSON report | [20b8ac0cdb82](https://github.com/aruintelligence/aruintelligence/commit/20b8ac0cdb82338ef49cd15f4ba518ca59a921c6) | 87 |
+| JSON index · Add nine artifact links | [3c4e8498498a](https://github.com/aruintelligence/aruintelligence/commit/3c4e8498498abcd7781fa5843b662e97802d6989) | 87 |
+| Publication log · Complete earlier registry | [8c5cb5fa464b](https://github.com/aruintelligence/aruintelligence/commit/8c5cb5fa464bc6438c80fbbf845eb454e18d0ff2) | 84 |
+| Publication log · Fix table layout | [ac7c61e886f7](https://github.com/aruintelligence/aruintelligence/commit/ac7c61e886f79b401512716a83b75e54ce442d9b) | 84 |
+| Publication log · Record audit | [77915a5900e0](https://github.com/aruintelligence/aruintelligence/commit/77915a5900e04113d694ffaefe92aa42a4ca78a2) | 87 |
 
 ## Cross-link commits
 
@@ -68,7 +73,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 ## Issues and metadata
 
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
-- [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) asks for a matched-time comparison of the inclusive periodic grid and a synthetic clipping case; the new audit makes these limits inspectable.
+- [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) asks for a matched-time comparison of the inclusive periodic grid and a synthetic clipping case; the new audit makes these limits inspectable. The audit JSON was initially committed empty and restored in commit `20b8ac0cdb82`; the published file was read back as nonempty JSON with six passing software checks.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
