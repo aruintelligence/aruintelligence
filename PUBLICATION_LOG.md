@@ -32,6 +32,11 @@
 | Audit · Matched-time methods note | [086a044a9ebe](https://github.com/aruintelligence/aruintelligence/commit/086a044a9ebe1b9feb2bef67de586eda7425dfb2) | 87 |
 | Landing · Summarize resolved challenge | [9662f0a864af](https://github.com/aruintelligence/aruintelligence/commit/9662f0a864afb512627454928917bfa6f2d5f288) | 87 |
 | Landing · Technical reviewer path | [09e89ee9cc6f](https://github.com/aruintelligence/aruintelligence/commit/09e89ee9cc6fed2e892b3b3a78a2c608b41782f0) | 87 |
+| Publication log · Previous audit closeout | [2e09c6116c44](https://github.com/aruintelligence/aruintelligence/commit/2e09c6116c44bb5b65e3c358339eb02685a04853) | 87 |
+| Receipt · Pinned replay and tamper review | [51073d5f3695](https://github.com/aruintelligence/aruintelligence/commit/51073d5f3695c5ab79b583167c692dc8d983bbb6) | 87 until linked |
+| Landing · Link receipt review | [327b910e7246](https://github.com/aruintelligence/aruintelligence/commit/327b910e7246a31e2b0e7e42aca7f4c3fa74ab05) | 88 |
+| Profile · First-screen review link | [36717e10681b](https://github.com/aruintelligence/aruintelligence/commit/36717e10681b70b13ba6e24f2cd94722d572059e) | 88 |
+| JSON index · Tenth artifact | [02a2d422c5a1](https://github.com/aruintelligence/aruintelligence/commit/02a2d422c5a1cf30005ff29b9a5839b6fb74b373) | 88 |
 
 ## Cross-link commits
 
@@ -80,8 +85,9 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
 - [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) is completed with a matched-time comparison of the inclusive and exclusive periodic grids, a synthetic clipping case, and a linked reproducible report. The audit JSON was initially committed empty and restored in commit `20b8ac0cdb82`; the published file was read back as nonempty JSON with six passing software checks.
+- [Remembrance Field issue #81](https://github.com/aruintelligence/aru-remembrance-field/issues/81) tracks an independent receipt implementation, adversarial fixture suite, and a trusted-origin threat model after the pinned local replay and one-field tamper result. It records proposed work, not completed validation.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 9 linked artifact files = **87** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 10 linked artifact files = **88** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
