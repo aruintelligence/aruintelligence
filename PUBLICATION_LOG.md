@@ -63,6 +63,11 @@
 | Model · Contraction JSON results | [a3190a1ef68f](https://github.com/aruintelligence/aruintelligence/commit/a3190a1ef68fa57664e3f9dd5ff387f7fcbb821d) | 95 |
 | Model · Contraction derivation | [96995c39375d](https://github.com/aruintelligence/aruintelligence/commit/96995c39375d846b6b6ec628c1c1ec02e7f14d04) | 95 |
 | Landing · Scope initial-condition claim | [42df2b76b849](https://github.com/aruintelligence/aruintelligence/commit/42df2b76b849fc9cc7fb6991e464fb250c1460f4) | 95 |
+| Publication log · Contraction closeout | [e166fe44a6b9](https://github.com/aruintelligence/aruintelligence/commit/e166fe44a6b9d768dfdcbf410dc08e49021a2b8e) | 95 |
+| Model · Source-off replay code | [811ad7bb6960](https://github.com/aruintelligence/aruintelligence/commit/811ad7bb69606f08179a07aacf0a03a0286300fb) | 95 |
+| Model · Source-off JSON result | [b49c447aa33d](https://github.com/aruintelligence/aruintelligence/commit/b49c447aa33dd5e242d579ad2ef9445096616aec) | 95 |
+| Model · Exact mean-decay derivation | [e215097c31bd](https://github.com/aruintelligence/aruintelligence/commit/e215097c31bd3a2d446fddf5cc39911297a90ac2) | 95 |
+| Landing · Source-off limitation | [7d7c202f1648](https://github.com/aruintelligence/aruintelligence/commit/7d7c202f1648e28baa5d842322592e3b9fabaae9) | 95 |
 
 ## Cross-link commits
 
@@ -115,6 +120,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - [Receipt challenge workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) completed successfully on the pinned dual-checker replay. The workflow compares a rerun to the committed report; this is first-party automation, not external validation.
 - The [boundedness certificate](./artifacts/invariant-certificate.md) derives a sufficient invariant interval for the published 1D explicit update. Its 5-amplitude software sweep shows the bound is sufficient rather than necessary; only the extreme synthetic case clips. It does not test the existence of a physical field.
 - The certificate now also derives a contraction under the same fixed source. A Gaussian initial state and uniform baseline state approach each other within the analytic bound after 400 and 4,000 steps. This identifies what the printed toy update can and cannot retain from its initial condition; no new direct target was added, so the count stays 95.
+- A source-off replay starts from the printed 400-step state, removes `A_i`, and checks the exact discrete mean decay. The model half-life is about 408.36 steps (4.6171 model-time units), and three sampled excess means match the formula within floating-point rounding. No human-memory or empirical half-life is inferred.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
