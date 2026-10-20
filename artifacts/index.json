@@ -358,6 +358,44 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page."
-  }
+    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes nine profile-repository source and audit files."
+  },
+  "artifact_files": [
+    {
+      "name": "first-law-equations.txt",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/first-law-equations.txt"
+    },
+    {
+      "name": "second-law-equations.txt",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/second-law-equations.txt"
+    },
+    {
+      "name": "numerical-checks-equations.txt",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/numerical-checks-equations.txt"
+    },
+    {
+      "name": "index.json",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/index.json"
+    },
+    {
+      "name": "reproducible-demo.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/reproducible-demo.md"
+    },
+    {
+      "name": "reproduce_reaction_diffusion.py",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/reproduce_reaction_diffusion.py"
+    },
+    {
+      "name": "audit-reaction-diffusion.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/audit-reaction-diffusion.md"
+    },
+    {
+      "name": "audit_reaction_diffusion.py",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/audit_reaction_diffusion.py"
+    },
+    {
+      "name": "audit_reaction_diffusion.json",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/audit_reaction_diffusion.json"
+    }
+  ]
 }
