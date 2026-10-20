@@ -30,3 +30,16 @@ The [standard-library sweep](./invariant_certificate.py) records [exact JSON out
 | 1000 | No | 11,178 | 0.7130244232 |
 
 Run `python3 artifacts/invariant_certificate.py` from the profile repository root. It checks the published mean against the separate [reference replay](./audit-reaction-diffusion.md), asserts no clipping whenever the sufficient bound holds, and includes one case beyond the bound with no observed clipping and one that clips. The bound is **sufficient, not necessary**: failure at `a=100` does not imply clipping. The `a=1000` count is cell-step events in a deliberately extreme synthetic variant; it is not an observation of any physical process. This certificate depends on the stated positivity and baseline assumptions; negative source or altered discretization needs a fresh analysis.
+
+## What this fixed-source rule retains
+
+Consider two initial arrays `u` and `v` in `[0,M]` evolving with **the same** printed source `A_i`. Their difference has no constant term:
+
+```text
+d_i(next) = [1 - 2r - dt(λ + A_i/M)]·d_i
+          + r·d_(i-1) + r·d_(i+1).
+```
+
+Under the published parameter bound, all three coefficients are nonnegative. Their row sum is `1 - dt(λ + A_i/M) ≤ q = 1 - dt·λ = 0.9983040308 < 1`. Therefore `||u(n)-v(n)||∞ ≤ q^n ||u(0)-v(0)||∞`. With the source fixed, the update is a contraction on the invariant box and has a unique attracting fixed profile. **Differences due only to the initial condition decay**; the persistent spatial pattern is driven by the continuing source. This conclusion applies to this fixed-source toy rule, not to the separate browser animation or every proposed Inward Physics formulation.
+
+The runnable check evolves the published Gaussian and a uniform `0.10` starting array under the same `a=0.25` source. Their maximum separation starts at `1.1995348037`; after 400 steps it is `0.2944123836` (bound `0.6083348588`), and after 4,000 steps it is `0.0000772554` (bound `0.0013499303`). Those finite runs illustrate the analytic result. A claim of persistent information about an initial state would need an additional mechanism, changed forcing, or different assumptions; the printed constant-source update alone does not supply it.
