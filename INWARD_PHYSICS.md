@@ -130,7 +130,7 @@ The [published minimal simulator](https://doi.org/10.5281/zenodo.18010911) updat
 | N / steps | 400 / 400 | Spatial grid and update count |
 | dt | 0.45 dx²/(2D) | Explicit step in the PDF |
 
-The [software audit](./artifacts/audit-reaction-diffusion.md) independently reproduces the model's reported trajectory to floating-point tolerance and records a time-step sensitivity check. Its six local checks passed; a changed decay constant failed the regression control. These are software checks of the simulator in DOI 10.5281/zenodo.18010911, separate from the later First Law numerical-checks paper.
+The [software audit](./artifacts/audit-reaction-diffusion.md) independently reproduces the model's reported trajectory to floating-point tolerance and records a time-step sensitivity check. Its seven local checks passed; a changed decay constant failed the regression control. At matched simulated time, an endpoint-exclusive periodic grid differed by at most `0.0002093854` after interpolation; a separate synthetic case exercised clipping and accounted for the clipped mass. [Issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) records that challenge. These are software checks of the simulator in DOI 10.5281/zenodo.18010911, separate from the later First Law numerical-checks paper.
 
 ## How to challenge the model
 
