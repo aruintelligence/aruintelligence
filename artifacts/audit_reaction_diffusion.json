@@ -1,0 +1,48 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "independent_loop_matches_numpy": true,
+    "periodic_laplacian_sum_zero": true,
+    "published_transcription_regression": true,
+    "source_zero_at_ceiling": true,
+    "unclipped_first_step_mass_balance": true,
+    "uniform_relaxation_one_step": true
+  },
+  "clipped_cells_over_all_steps": 0,
+  "diagnostics": {
+    "first_step_mass_balance_residual": -5.841681305351898e-16,
+    "periodic_laplacian_integral": 1.919427971497771e-15,
+    "uniform_relaxation_max_error": 0.0
+  },
+  "grid_convention": "400 inclusive linspace coordinates; endpoints are distinct periodic cells",
+  "half_step_same_time": {
+    "clipped_cells": 0,
+    "integrated_mass": 4.319061739455402,
+    "max_absolute_difference": 0.0001314559936422821,
+    "steps": 800
+  },
+  "model": "1D periodic explicit Euler with saturated source and clipping",
+  "numpy_comparison": {
+    "available": true,
+    "max_absolute_difference": 1.3322676295501878e-15,
+    "version": "2.3.5"
+  },
+  "parameters": {
+    "D": 0.05,
+    "cells": 400,
+    "dt": 0.011306461642828875,
+    "dx": 0.05012531328320802,
+    "lambda": 0.15,
+    "mu0": 0.1,
+    "mu_max": 2.0,
+    "steps": 400
+  },
+  "python_version": "3.12.14",
+  "reference_replay": {
+    "integrated_mass": 4.318910539730637,
+    "mean": 0.21540566316906554,
+    "variance": 0.056695239253561264
+  },
+  "scope": "Software and discretization checks only; no empirical physical validation.",
+  "source_doi": "10.5281/zenodo.18010911"
+}
