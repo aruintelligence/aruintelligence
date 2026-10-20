@@ -9,7 +9,7 @@
 3. [Read the numerical checks PDF](https://zenodo.org/records/18168723/files/Numerical_Consistency_Checks_for_the_First_Law_of_Inward_Physics.pdf?download=1) and note that the checks are internal 0D/1D simulations, not observations of a physical field.
 4. [Read the experimental roadmap](https://doi.org/10.5281/zenodo.18708708) for proposed empirical probes and null expectations.
 
-**Technical review in ten minutes:** [replay a cited-answer receipt and tamper check](./artifacts/receipt-review.md), then inspect the [Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field). For the separate 1D PDF model, run the [independent numerical audit](./artifacts/audit_reaction_diffusion.py), compare its [recorded JSON](./artifacts/audit_reaction_diffusion.json), and read the [limits and resolved grid challenge](./artifacts/audit-reaction-diffusion.md). These are bounded software checks; the roadmap describes proposed empirical tests.
+**Technical review in ten minutes:** [replay a cited-answer receipt](./artifacts/receipt-review.md), inspect the [two-implementation boundary challenge](./artifacts/receipt-boundary-challenge.md), then examine the [Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field). For the separate 1D PDF model, run the [independent numerical audit](./artifacts/audit_reaction_diffusion.py), compare its [recorded JSON](./artifacts/audit_reaction_diffusion.json), and read the [limits and resolved grid challenge](./artifacts/audit-reaction-diffusion.md). These are bounded software checks; the roadmap describes proposed empirical tests.
 
 ## Zenodo record index
 
@@ -117,6 +117,7 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Reproducible demo note](./artifacts/reproducible-demo.md) and [runnable Python transcription](./artifacts/reproduce_reaction_diffusion.py) — source equation, discrete step, parameters, and a local replay.
 - [Independent software audit](./artifacts/audit-reaction-diffusion.md), [standard-library checker](./artifacts/audit_reaction_diffusion.py), and [recorded JSON output](./artifacts/audit_reaction_diffusion.json) — mass balance, controls, cross-implementation replay, and a failed-parameter negative control.
 - [Receipt review](./artifacts/receipt-review.md) — pinned Node replay of a public cited-answer fixture and a one-field tamper case, with exact output and trust limits.
+- [Two-implementation receipt challenge](./artifacts/receipt-boundary-challenge.md), [runnable case generator](./artifacts/challenge_receipts.py), and [recorded JSON output](./artifacts/challenge_receipts.json) — ten synthetic cases through the existing Node and independent Python auditors, including a consistent forged-claim negative control.
 
 ## Seven-day visibility notes
 
@@ -151,4 +152,4 @@ The [software audit](./artifacts/audit-reaction-diffusion.md) independently repr
 
 ## Linked artifact count
 
-**88 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 10 files in the artifact folder. ORCID, blog, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**91 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 13 files in the artifact folder. ORCID, blog, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
