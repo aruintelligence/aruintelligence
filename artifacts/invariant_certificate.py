@@ -83,6 +83,36 @@ def compare_initial_states():
             "comparison": "published Gaussian versus uniform baseline, same fixed source"}
 
 
+def source_off_decay():
+    """Apply published forcing for 400 steps, then turn it off exactly."""
+    a = [0.25 * shape for shape in SOURCE_SHAPE]
+    values = INITIAL.copy()
+    for _ in range(STEPS):
+        values = raw_update(values, a)
+    excess_at_switch = sum(values) / CELLS - BASELINE
+    assert excess_at_switch > 0
+    zeros = [0.0] * CELLS
+    factor = 1 - DT * DECAY
+    checkpoints = []
+    for elapsed in range(1, 1601):
+        values = raw_update(values, zeros)
+        if elapsed in (400, 800, 1600):
+            excess = sum(values) / CELLS - BASELINE
+            expected = excess_at_switch * factor**elapsed
+            residual = excess - expected
+            assert abs(residual) < 1e-12
+            checkpoints.append({"steps_after_switch": elapsed,
+                                "observed_mean_excess": excess,
+                                "exact_discrete_prediction": expected,
+                                "residual": residual})
+    return {"source_on_steps": STEPS, "source_off_steps": 1600,
+            "excess_mean_at_switch": excess_at_switch,
+            "per_step_excess_retention": factor,
+            "half_life_steps": math.log(0.5) / math.log(factor),
+            "half_life_model_time": DT * math.log(0.5) / math.log(factor),
+            "checkpoints": checkpoints}
+
+
 def main():
     assert min(INITIAL) >= 0 and max(INITIAL) <= CEILING
     threshold = CEILING * ((1 - 2 * D * DT / DX**2) / DT - DECAY) / max(SOURCE_SHAPE)
@@ -99,6 +129,7 @@ def main():
               "source_peak_parameter_threshold": threshold,
               "cases": cases,
               "initial_condition_contraction": compare_initial_states(),
+              "source_off_mean_decay": source_off_decay(),
               "scope": "Analytic sufficient bound and deterministic software sweep; not empirical validation."}
     print(json.dumps(result, indent=2, sort_keys=True))
 
