@@ -113,6 +113,7 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Numerical-checks model extract](./artifacts/numerical-checks-equations.txt) — the printed potential, registration integral, setup, and limitations.
 - [DOI and GitHub JSON index](./artifacts/index.json) — 39 DOI/title pairs, 36 repository links, and two demos.
 - [Reproducible demo note](./artifacts/reproducible-demo.md) and [runnable Python transcription](./artifacts/reproduce_reaction_diffusion.py) — source equation, discrete step, parameters, and a local replay.
+- [Independent software audit](./artifacts/audit-reaction-diffusion.md), [standard-library checker](./artifacts/audit_reaction_diffusion.py), and [recorded JSON output](./artifacts/audit_reaction_diffusion.json) — mass balance, controls, cross-implementation replay, and a failed-parameter negative control.
 
 ## Seven-day visibility notes
 
@@ -129,11 +130,13 @@ The [published minimal simulator](https://doi.org/10.5281/zenodo.18010911) updat
 | N / steps | 400 / 400 | Spatial grid and update count |
 | dt | 0.45 dx²/(2D) | Explicit step in the PDF |
 
+The [software audit](./artifacts/audit-reaction-diffusion.md) independently reproduces the model's reported trajectory to floating-point tolerance and records a time-step sensitivity check. Its six local checks passed; a changed decay constant failed the regression control. These are software checks of the simulator in DOI 10.5281/zenodo.18010911, separate from the later First Law numerical-checks paper.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
 |---|---|---|
-| Does the disclosed toy update run as written? | [Replay the reaction–diffusion transcription](./artifacts/reproducible-demo.md) and inspect [the numerical-checks paper](https://doi.org/10.5281/zenodo.18168723). | Reproducibility of a specified computation, subject to the paper's incomplete code sketch and stated numerical limits. |
+| Does the disclosed toy update run as written? | [Replay the source model](https://doi.org/10.5281/zenodo.18010911) with the [independent software audit](./artifacts/audit-reaction-diffusion.md). | Reproducibility of this specified 1D computation; the distinct [First Law numerical-checks paper](https://doi.org/10.5281/zenodo.18168723) has its own incomplete code sketch. |
 | Do results survive changed assumptions and negative controls? | Use the [Experimental Roadmap](https://doi.org/10.5281/zenodo.18708708) to predeclare a bounded probe, null expectation, sensitivity range, and analysis before collecting data. | Whether a specific prediction survives a documented test; it may fail. |
 | Is μ a measured physical field? | Publish methods, raw observations, calibration, and independent replication tied to a prespecified observable. | A later empirical claim could be evaluated; the linked simulations alone do not establish one. |
 
@@ -145,4 +148,4 @@ The [published minimal simulator](https://doi.org/10.5281/zenodo.18010911) updat
 
 ## Linked artifact count
 
-**84 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 6 files in the artifact folder. ORCID, blog, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**87 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 9 files in the artifact folder. ORCID, blog, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
