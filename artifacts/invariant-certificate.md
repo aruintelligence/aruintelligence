@@ -43,3 +43,16 @@ d_i(next) = [1 - 2r - dt(λ + A_i/M)]·d_i
 Under the published parameter bound, all three coefficients are nonnegative. Their row sum is `1 - dt(λ + A_i/M) ≤ q = 1 - dt·λ = 0.9983040308 < 1`. Therefore `||u(n)-v(n)||∞ ≤ q^n ||u(0)-v(0)||∞`. With the source fixed, the update is a contraction on the invariant box and has a unique attracting fixed profile. **Differences due only to the initial condition decay**; the persistent spatial pattern is driven by the continuing source. This conclusion applies to this fixed-source toy rule, not to the separate browser animation or every proposed Inward Physics formulation.
 
 The runnable check evolves the published Gaussian and a uniform `0.10` starting array under the same `a=0.25` source. Their maximum separation starts at `1.1995348037`; after 400 steps it is `0.2944123836` (bound `0.6083348588`), and after 4,000 steps it is `0.0000772554` (bound `0.0013499303`). Those finite runs illustrate the analytic result. A claim of persistent information about an initial state would need an additional mechanism, changed forcing, or different assumptions; the printed constant-source update alone does not supply it.
+
+## Turn off the source: an exact mean-decay check
+
+After the paper's 400 driven steps, set every `A_i` to zero without changing `D`, `λ`, `dt`, or the state. The sum of the periodic second differences is exactly zero in the discrete algebra. With no source and no clipping, the spatial mean excess `e_n = mean(u_n) − b` therefore obeys
+
+```text
+e_(n+1) = (1 − λ·dt)·e_n;
+e_n = e_0·(1 − λ·dt)^n.
+```
+
+This is an exact identity for the specified discrete rule (apart from floating-point rounding), independent of the starting spatial profile. At the switch, `e_0 = 0.1154056632`. The retention factor is `0.9983040308` per step, so the excess mean's half-life is `ln(0.5)/ln(1−λ·dt) = 408.3560` steps, or `4.6171` model-time units. The [recorded source-off replay](./invariant_certificate.json) finds excess means of `0.0585270953`, `0.0296815667`, and `0.0076339009` after 400, 800, and 1,600 source-off steps; each differs from the closed-form prediction by less than `4×10⁻¹⁶` in this local run. These are model-time units and synthetic outputs, not measured human-memory half-lives.
+
+The driven final field and the source-off relaxation answer different questions. A continuing spatial source can sustain a spatial profile; when it is removed, this rule's mean excess returns toward its baseline. Any stronger persistence claim needs a separately specified mechanism and a test that distinguishes stored history from continuing input.
