@@ -45,6 +45,12 @@
 | Landing · Link three challenge artifacts | [93409544b827](https://github.com/aruintelligence/aruintelligence/commit/93409544b8275aa6d5e12938de3737027f008a6f) | 91 |
 | Profile · Link two-checker challenge | [bdc377bbec57](https://github.com/aruintelligence/aruintelligence/commit/bdc377bbec57bd2e532a01e7c20c13b27c65a8e6) | 91 |
 | JSON index · Thirteen artifacts | [4985796b2fd6](https://github.com/aruintelligence/aruintelligence/commit/4985796b2fd64f0484925df23250731a6526de6c) | 91 |
+| Publication log · Challenge closeout | [70a89edbb966](https://github.com/aruintelligence/aruintelligence/commit/70a89edbb9665c25b4239ee4e74a8abc86e9673a) | 91 |
+| Receipt challenge · GitHub Actions replay | [5c893dcad390](https://github.com/aruintelligence/aruintelligence/commit/5c893dcad390328ffabbc1523bef9aa7a3f81277) | 91 until linked |
+| Receipt challenge · Record successful run | [63b8213a51c2](https://github.com/aruintelligence/aruintelligence/commit/63b8213a51c2741329eb32361abb0399a883b0b8) | 91 until linked |
+| Landing · Link workflow | [fe2c894b2dcb](https://github.com/aruintelligence/aruintelligence/commit/fe2c894b2dcb05bf7c44ed740a22ecd33f7e22c0) | 92 |
+| Profile · Link continuous replay | [352ae22a0077](https://github.com/aruintelligence/aruintelligence/commit/352ae22a0077fc00cc1fe7f17bf448caaf5e0790) | 92 |
+| JSON index · Workflow link | [cf470e7c70c5](https://github.com/aruintelligence/aruintelligence/commit/cf470e7c70c55325fa953d0ca9e09f804c189f59) | 92 |
 
 ## Cross-link commits
 
@@ -94,8 +100,9 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
 - [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) is completed with a matched-time comparison of the inclusive and exclusive periodic grids, a synthetic clipping case, and a linked reproducible report. The audit JSON was initially committed empty and restored in commit `20b8ac0cdb82`; the published file was read back as nonempty JSON with six passing software checks.
 - [Remembrance Field issue #81](https://github.com/aruintelligence/aru-remembrance-field/issues/81) was corrected after the existing independent Python auditor was identified. The completed bounded challenge shows agreement on ten synthetic cases, including a coordinated rewrite that passes both; broader review, capture provenance, privacy, and accessibility remain open.
+- [Receipt challenge workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) completed successfully on the pinned dual-checker replay. The workflow compares a rerun to the committed report; this is first-party automation, not external validation.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 13 linked artifact files = **91** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 13 linked artifact files + 1 workflow file = **92** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
