@@ -10,7 +10,7 @@
 
 **μ(x,t)** is the proposed scalar memory-density field in Inward Physics, assigning a modeled remembrance value to position **x** at time **t**; a physical interpretation remains a hypothesis.
 
-**[Open the complete Inward Physics research index →](./INWARD_PHYSICS.md)** — 39 DOI records, code, live demos, and a reading path. [Check the 1D update's boundedness](./artifacts/invariant-certificate.md), [replay a cited-answer receipt](./artifacts/receipt-review.md), and [see continuous receipt replay](https://github.com/aruintelligence/aruintelligence/actions/workflows/receipt-challenge.yml).
+**[Open the complete Inward Physics research index →](./INWARD_PHYSICS.md)** — 39 DOI records, code, live demos, and a reading path. [Check the 1D update's boundedness](./artifacts/invariant-certificate.md), [audit the Fourth Law's MRI proposal](./artifacts/fourth-law-source-audit.md), [replay a cited-answer receipt](./artifacts/receipt-review.md), and [see continuous receipt replay](https://github.com/aruintelligence/aruintelligence/actions/workflows/receipt-challenge.yml).
 
 **Start exploring:** [Live Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/) · [Mathematics Simulator](https://aruintelligence.github.io/inward-mathematics-simulator/) · [Numerical checks for the First Law](https://doi.org/10.5281/zenodo.18168723) · [Experimental roadmap](https://doi.org/10.5281/zenodo.18708708) · [Fourteenth Law](https://doi.org/10.5281/zenodo.18917411)
 
@@ -26,7 +26,7 @@
 
 *The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
 
-**Profile last updated:** October 19, 2026 (Pacific) · 39 DOI records indexed, 16 artifact files plus 1 replay workflow, 95 distinct direct targets
+**Profile last updated:** October 20, 2026 (Pacific) · 39 DOI records indexed, 21 artifact files plus 1 replay workflow, 100 distinct direct targets
 
 ---
 
