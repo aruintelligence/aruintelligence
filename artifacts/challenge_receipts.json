@@ -1,0 +1,136 @@
+{
+  "format": "inward-receipt-boundary-challenge",
+  "revision": "6238cfdae41adbc6ec858161eaa965573be6114d",
+  "cases": {
+    "original": {
+      "expected": "MATCH",
+      "node": {
+        "verdict": "MATCH",
+        "exit_code": 0,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "MATCH",
+        "exit_code": 0,
+        "stderr": ""
+      }
+    },
+    "answer_changed": {
+      "expected": "FAIL",
+      "node": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      }
+    },
+    "citation_changed": {
+      "expected": "FAIL",
+      "node": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      }
+    },
+    "record_status_changed": {
+      "expected": "FAIL",
+      "node": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      }
+    },
+    "record_time_changed": {
+      "expected": "DIFFER",
+      "node": {
+        "verdict": "DIFFER",
+        "exit_code": 1,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "DIFFER",
+        "exit_code": 1,
+        "stderr": ""
+      }
+    },
+    "duplicate_json_name": {
+      "expected": "FAIL",
+      "node": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "FAIL",
+        "exit_code": 1,
+        "stderr": ""
+      }
+    },
+    "baseline_changed": {
+      "expected": "DIFFER",
+      "node": {
+        "verdict": "DIFFER",
+        "exit_code": 1,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "DIFFER",
+        "exit_code": 1,
+        "stderr": ""
+      }
+    },
+    "baseline_changed_with_old_checkpoint": {
+      "expected": "FATAL",
+      "node": {
+        "verdict": "FATAL",
+        "exit_code": 1,
+        "stderr": "FAIL: Invalid receipt: checkpoint differs from supplied reference ledger"
+      },
+      "python": {
+        "verdict": "FATAL",
+        "exit_code": 1,
+        "stderr": "FAIL: checkpoint differs from reference"
+      }
+    },
+    "checkpoint_changed": {
+      "expected": "FATAL",
+      "node": {
+        "verdict": "FATAL",
+        "exit_code": 1,
+        "stderr": "FAIL: Invalid receipt: checkpoint differs from supplied reference ledger"
+      },
+      "python": {
+        "verdict": "FATAL",
+        "exit_code": 1,
+        "stderr": "FAIL: checkpoint differs from reference"
+      }
+    },
+    "coordinated_rewrite": {
+      "expected": "MATCH",
+      "node": {
+        "verdict": "MATCH",
+        "exit_code": 0,
+        "stderr": ""
+      },
+      "python": {
+        "verdict": "MATCH",
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  }
+}
