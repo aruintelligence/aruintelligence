@@ -49,7 +49,7 @@ The 39 records below are the Zenodo DOI works listed on [Daniel Jacob Read IV’
 | [The Seventh Law of Inward Physics — The Emergence of Presence from the Void of Completion (2025)](https://doi.org/10.5281/zenodo.17845607)<br>`10.5281/zenodo.17845607` | Describes a proposed transition from recursive completion to Presence in the law series. |
 | [The Sixth Law of Inward Physics — The Collapse of Time Is the Completion of Pattern (2025)](https://doi.org/10.5281/zenodo.17845106)<br>`10.5281/zenodo.17845106` | Defines a proposed terminal condition in which a coherent memory pattern stops evolving in model time. |
 | [The Twentieth Law of Inward Physics: The Eternal Archive Is the Self-Recognition of the Unified Field](https://doi.org/10.5281/zenodo.17547505)<br>`10.5281/zenodo.17547505` | No abstract is supplied in the Zenodo record metadata; consult the title and attached files. |
-| [The Fifth Law of Inward Physics — Professional Edition (Version 2)](https://doi.org/10.5281/zenodo.17334186)<br>`10.5281/zenodo.17334186` | Extends a remembrance model to a proposed transmission operator for shared resonance. |
+| [The Fifth Law of Inward Physics — Professional Edition (Version 2)](https://doi.org/10.5281/zenodo.17334186)<br>`10.5281/zenodo.17334186` | Proposes a scaled vector-overlap integral for shared remembrance; the two-page deposit supplies no consistency proofs or measured validation. |
 | [The Fourth Law of Inward Physics — Memory Field Archive](https://doi.org/10.5281/zenodo.17317217)<br>`10.5281/zenodo.17317217` | Proposes remembrance return and an MRI test concept; the integral and test threshold are not operationally specified in the deposit. |
 | [The Third Law of Inward Physics — Remembrance Amplification](https://doi.org/10.5281/zenodo.17314619)<br>`10.5281/zenodo.17314619` | Proposes `dR/dt = β(∇²μ)R`; its record now distinguishes this linear model from untested claims about life and identity. |
 | [The Second Law of Inward Physics — The Gradient of Remembrance](https://doi.org/10.5281/zenodo.17297355)<br>`10.5281/zenodo.17297355` | Defines a proposed relation between the divergence of a memory reaction field and the Laplacian of μ. |
@@ -119,7 +119,9 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Receipt review](./artifacts/receipt-review.md) — pinned Node replay of a public cited-answer fixture and a one-field tamper case, with exact output and trust limits.
 - [Two-implementation receipt challenge](./artifacts/receipt-boundary-challenge.md), [runnable case generator](./artifacts/challenge_receipts.py), [recorded JSON output](./artifacts/challenge_receipts.json), and [continuous replay workflow](./.github/workflows/receipt-challenge.yml) — ten synthetic cases through the existing Node and independent Python auditors, including a consistent forged-claim negative control. [First workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) succeeded.
 - [Boundedness certificate](./artifacts/invariant-certificate.md), [runnable source sweep](./artifacts/invariant_certificate.py), and [recorded JSON output](./artifacts/invariant_certificate.json) — a sufficient no-clipping condition for the PDF's explicit 1D update, plus a failing-bound case with no observed clipping and an extreme case that clips.
-- [Fourth Law source audit](./artifacts/fourth-law-source-audit.md) — the two-page Fourth Law equation, proposed MRI test, unspecified operators and thresholds, and published metadata correction.\n- [Third Law source audit](./artifacts/third-law-source-audit.md), [runnable analytic check](./artifacts/third_law_check.py), and [exact-solution comparison](./artifacts/third-law-check-results.md), and [published Zenodo metadata correction log](./artifacts/third-law-zenodo-metadata.md) — source-grounded limits and a reproducible toy-case check of DOI 10.5281/zenodo.17314619; this is mathematical consistency, not empirical validation.
+- [Fifth Law source audit](./artifacts/fifth-law-source-audit.md) — deposited expression, conditional overlap limits, PDF checksum, and verified metadata correction.
+- [Fourth Law source audit](./artifacts/fourth-law-source-audit.md) — the two-page Fourth Law equation, proposed MRI test, unspecified operators and thresholds, and published metadata correction.
+- [Third Law source audit](./artifacts/third-law-source-audit.md), [runnable analytic check](./artifacts/third_law_check.py), and [exact-solution comparison](./artifacts/third-law-check-results.md), and [published Zenodo metadata correction log](./artifacts/third-law-zenodo-metadata.md) — source-grounded limits and a reproducible toy-case check of DOI 10.5281/zenodo.17314619; this is mathematical consistency, not empirical validation.
 
 ## Seven-day visibility notes
 
@@ -140,6 +142,14 @@ The [software audit](./artifacts/audit-reaction-diffusion.md) independently repr
 
 The [discrete boundedness, contraction, and source-off certificate](./artifacts/invariant-certificate.md) shows why the published update cannot clip under its stated nonnegative-source parameters: its minimum current-cell coefficient is about `0.5468914`. With all other parameters fixed, the sufficient source-amplitude threshold is about `97.0371` on the printed grid. A synthetic amplitude of `100` fails that sufficient condition yet did not clip in 400 steps; `1000` did clip. Under the same fixed source, differences between initial arrays contract at most by `1 − dt·λ` per step. When the source is turned off after the printed run, the mean excess decays exactly by `1 − dt·λ` per step, with a model half-life of about `408.36` steps. This toy rule approaches a source-driven profile and relaxes toward baseline without the source. These are mathematical properties of the stated numerical rule, not physical measurements.
 
+### Day 2 · 2026-10-20 Pacific — separate overlap from transmission
+
+The two-page [Fifth Law deposit](https://doi.org/10.5281/zenodo.17334186) defines `Tμ = γ ∫V [R₁ · R₂] dx` and bounds γ in [0,1]. The [page-by-page source audit](./artifacts/fifth-law-source-audit.md) identifies its equation, explicit CC BY 4.0 statement, and absent calibration, measurements, and consistency proofs. The corrected public metadata now states these limits.
+
+For ordinary real square-integrable vector fields on a specified domain, Cauchy-Schwarz gives `|Tμ| ≤ γ ||R₁||₂ ||R₂||₂`. Thus γ alone does not normalize the score: rescaling either vector rescales the integral, and opposite vectors yield a negative value. The printed full-domain scalar integral does not by itself define a spatial gradient, causal transmission, or amplification dynamics. These are conditional mathematical observations about the proposed expression, not measurements of a physical field.
+
+[Issue #6](https://github.com/aruintelligence/aruintelligence/issues/6) requests operational definitions, normalization, calibration, a held-out test and null baseline, edition provenance, and individual review of six inherited relation directions. No new simulation or empirical result is claimed.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -156,4 +166,4 @@ The [discrete boundedness, contraction, and source-off certificate](./artifacts/
 
 ## Linked artifact count
 
-**100 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 21 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**101 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 22 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
