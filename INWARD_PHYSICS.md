@@ -106,6 +106,29 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [divine-whisper-v10.6-unified-singularity](https://github.com/aruintelligence/divine-whisper-v10.6-unified-singularity)
 - [divine-whisper-v10.7-absolute-void](https://github.com/aruintelligence/divine-whisper-v10.7-absolute-void)
 
+## Inspectable artifacts
+
+- [First Law equation extracts](./artifacts/first-law-equations.txt) — the original field proposal and later endogenous-registration formulation, with separate DOI/page provenance.
+- [Second Law equation extract](./artifacts/second-law-equations.txt) — the proposed divergence/Laplacian relation and symbols.
+- [Numerical-checks model extract](./artifacts/numerical-checks-equations.txt) — the printed potential, registration integral, setup, and limitations.
+- [DOI and GitHub JSON index](./artifacts/index.json) — 39 DOI/title pairs, 36 repository links, and two demos.
+- [Reproducible demo note](./artifacts/reproducible-demo.md) and [runnable Python transcription](./artifacts/reproduce_reaction_diffusion.py) — source equation, discrete step, parameters, and a local replay.
+
+## Seven-day visibility notes
+
+### Day 1 · 2026-10-19 Pacific — walk through one bounded field step
+
+The [published minimal simulator](https://doi.org/10.5281/zenodo.18010911) updates each one-dimensional cell using a periodic second difference, baseline relaxation, a saturated source, and a final clamp. [The exact update and source parameters](./artifacts/reproducible-demo.md) separate that deterministic PDF model from the browser field animation.
+
+| Parameter | Published value | Role in this toy update |
+|---|---:|---|
+| D | 0.05 | Diffusion coefficient |
+| λ | 0.15 | Relaxation toward μ₀ |
+| μ₀ | 0.10 | Baseline density |
+| μ_max | 2.0 | Saturation and clipping ceiling |
+| N / steps | 400 / 400 | Spatial grid and update count |
+| dt | 0.45 dx²/(2D) | Explicit step in the PDF |
+
 ## Provenance and scope
 
 - [The First Law research blog](https://thefirstlawofinwardphysics.blogspot.com/) · [ORCID](https://orcid.org/0009-0000-6133-1872) · [public repository registry](https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md).
@@ -114,4 +137,4 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 
 ## Linked artifact count
 
-**78 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF. ORCID, blog, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**84 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 6 files in the artifact folder. ORCID, blog, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
