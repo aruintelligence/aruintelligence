@@ -26,6 +26,12 @@
 | Publication log · Complete earlier registry | [8c5cb5fa464b](https://github.com/aruintelligence/aruintelligence/commit/8c5cb5fa464bc6438c80fbbf845eb454e18d0ff2) | 84 |
 | Publication log · Fix table layout | [ac7c61e886f7](https://github.com/aruintelligence/aruintelligence/commit/ac7c61e886f79b401512716a83b75e54ce442d9b) | 84 |
 | Publication log · Record audit | [77915a5900e0](https://github.com/aruintelligence/aruintelligence/commit/77915a5900e04113d694ffaefe92aa42a4ca78a2) | 87 |
+| Publication log · Record JSON repair | [c78f944d9ae8](https://github.com/aruintelligence/aruintelligence/commit/c78f944d9ae8787b75a6c6a7627508a5c9915d15) | 87 |
+| Audit · Endpoint and clipping code | [563a97f4795b](https://github.com/aruintelligence/aruintelligence/commit/563a97f4795b1eb4dade30eeb09ee834edff5a86) | 87 |
+| Audit · Updated JSON report | [c837af0bcb5c](https://github.com/aruintelligence/aruintelligence/commit/c837af0bcb5cb6bfe7a831eac5035b2ec2a45e7b) | 87 |
+| Audit · Matched-time methods note | [086a044a9ebe](https://github.com/aruintelligence/aruintelligence/commit/086a044a9ebe1b9feb2bef67de586eda7425dfb2) | 87 |
+| Landing · Summarize resolved challenge | [9662f0a864af](https://github.com/aruintelligence/aruintelligence/commit/9662f0a864afb512627454928917bfa6f2d5f288) | 87 |
+| Landing · Technical reviewer path | [09e89ee9cc6f](https://github.com/aruintelligence/aruintelligence/commit/09e89ee9cc6fed2e892b3b3a78a2c608b41782f0) | 87 |
 
 ## Cross-link commits
 
@@ -73,7 +79,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 ## Issues and metadata
 
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
-- [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) asks for a matched-time comparison of the inclusive periodic grid and a synthetic clipping case; the new audit makes these limits inspectable. The audit JSON was initially committed empty and restored in commit `20b8ac0cdb82`; the published file was read back as nonempty JSON with six passing software checks.
+- [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) is completed with a matched-time comparison of the inclusive and exclusive periodic grids, a synthetic clipping case, and a linked reproducible report. The audit JSON was initially committed empty and restored in commit `20b8ac0cdb82`; the published file was read back as nonempty JSON with six passing software checks.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
