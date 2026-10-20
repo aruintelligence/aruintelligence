@@ -57,6 +57,24 @@
     }
   ],
   "grid": "400 inclusive linspace coordinates treated as periodic cells",
+  "initial_condition_contraction": {
+    "checkpoints": [
+      {
+        "analytic_upper_bound": 0.6083348587522774,
+        "observed_max_distance": 0.29441238363426847,
+        "steps": 400
+      },
+      {
+        "analytic_upper_bound": 0.0013499303189203559,
+        "observed_max_distance": 7.725538424405154e-05,
+        "steps": 4000
+      }
+    ],
+    "comparison": "published Gaussian versus uniform baseline, same fixed source",
+    "initial_max_distance": 1.1995348037057814,
+    "per_step_contraction_upper_bound": 0.9983040307535757,
+    "source_peak_parameter": 0.25
+  },
   "parameters": {
     "D": 0.05,
     "cells": 400,
