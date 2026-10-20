@@ -9,7 +9,7 @@
 3. [Read the numerical checks PDF](https://zenodo.org/records/18168723/files/Numerical_Consistency_Checks_for_the_First_Law_of_Inward_Physics.pdf?download=1) and note that the checks are internal 0D/1D simulations, not observations of a physical field.
 4. [Read the experimental roadmap](https://doi.org/10.5281/zenodo.18708708) for proposed empirical probes and null expectations.
 
-**Technical review in ten minutes:** [replay a cited-answer receipt](./artifacts/receipt-review.md), inspect the [two-implementation boundary challenge](./artifacts/receipt-boundary-challenge.md), then examine the [Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field). For the separate 1D PDF model, run the [independent numerical audit](./artifacts/audit_reaction_diffusion.py), compare its [recorded JSON](./artifacts/audit_reaction_diffusion.json), and read the [limits and resolved grid challenge](./artifacts/audit-reaction-diffusion.md). These are bounded software checks; the roadmap describes proposed empirical tests.
+**Technical review in ten minutes:** [replay a cited-answer receipt](./artifacts/receipt-review.md), inspect the [two-implementation boundary challenge](./artifacts/receipt-boundary-challenge.md), then examine the [Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field). For the separate 1D PDF model, read the [boundedness certificate](./artifacts/invariant-certificate.md), run the [independent numerical audit](./artifacts/audit_reaction_diffusion.py), compare its [recorded JSON](./artifacts/audit_reaction_diffusion.json), and read the [limits and resolved grid challenge](./artifacts/audit-reaction-diffusion.md). These are bounded software checks; the roadmap describes proposed empirical tests.
 
 ## Zenodo record index
 
@@ -118,6 +118,7 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Independent software audit](./artifacts/audit-reaction-diffusion.md), [standard-library checker](./artifacts/audit_reaction_diffusion.py), and [recorded JSON output](./artifacts/audit_reaction_diffusion.json) — mass balance, controls, cross-implementation replay, and a failed-parameter negative control.
 - [Receipt review](./artifacts/receipt-review.md) — pinned Node replay of a public cited-answer fixture and a one-field tamper case, with exact output and trust limits.
 - [Two-implementation receipt challenge](./artifacts/receipt-boundary-challenge.md), [runnable case generator](./artifacts/challenge_receipts.py), [recorded JSON output](./artifacts/challenge_receipts.json), and [continuous replay workflow](./.github/workflows/receipt-challenge.yml) — ten synthetic cases through the existing Node and independent Python auditors, including a consistent forged-claim negative control. [First workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) succeeded.
+- [Boundedness certificate](./artifacts/invariant-certificate.md), [runnable source sweep](./artifacts/invariant_certificate.py), and [recorded JSON output](./artifacts/invariant_certificate.json) — a sufficient no-clipping condition for the PDF's explicit 1D update, plus a failing-bound case with no observed clipping and an extreme case that clips.
 
 ## Seven-day visibility notes
 
@@ -136,6 +137,8 @@ The [published minimal simulator](https://doi.org/10.5281/zenodo.18010911) updat
 
 The [software audit](./artifacts/audit-reaction-diffusion.md) independently reproduces the model's reported trajectory to floating-point tolerance and records a time-step sensitivity check. Its seven local checks passed; a changed decay constant failed the regression control. At matched simulated time, an endpoint-exclusive periodic grid differed by at most `0.0002093854` after interpolation; a separate synthetic case exercised clipping and accounted for the clipped mass. [Issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) records that challenge. These are software checks of the simulator in DOI 10.5281/zenodo.18010911, separate from the later First Law numerical-checks paper.
 
+The [discrete boundedness certificate](./artifacts/invariant-certificate.md) shows why the published update cannot clip under its stated nonnegative-source parameters: its minimum current-cell coefficient is about `0.5468914`. With all other parameters fixed, the sufficient source-amplitude threshold is about `97.0371` on the printed grid. A synthetic amplitude of `100` fails that sufficient condition yet did not clip in 400 steps; `1000` did clip. This is a mathematical property of the stated numerical rule, not a physical measurement.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -152,4 +155,4 @@ The [software audit](./artifacts/audit-reaction-diffusion.md) independently repr
 
 ## Linked artifact count
 
-**92 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 13 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**95 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 16 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
