@@ -50,7 +50,7 @@ The positive run checks an answer against the local rules and the complete suppl
 | Review question | Public inspection point | What remains to establish |
 |---|---|---|
 | Can a user inspect cited local answers? | [Live field](https://aruintelligence.github.io/aru-remembrance-field/) and [evidence ledger README](https://github.com/aruintelligence/aru-remembrance-field#evidence-memory-recall-with-sources) | Usability with representative tasks and users. |
-| Does an exported receipt replay? | The pinned verifier and commands above. | A separate implementation and larger adversarial fixture set. |
+| Does an exported receipt replay? | The pinned verifier above and the existing [Node/Python boundary challenge](./receipt-boundary-challenge.md). | A larger adversarial fixture set and representative independent review. |
 | Is local state handled as described? | [README storage disclosure](https://github.com/aruintelligence/aru-remembrance-field/blob/6238cfdae41adbc6ec858161eaa965573be6114d/README.md#L108-L115) and source. | Browser and device threat review; privacy tests for an intended product. |
 | Are the rights clear? | [MIT license](https://github.com/aruintelligence/aru-remembrance-field/blob/main/LICENSE) and [README marks notice](https://github.com/aruintelligence/aru-remembrance-field#license). | Confirm rights to any brand, data, and bundled dependencies before commercial use. |
 
