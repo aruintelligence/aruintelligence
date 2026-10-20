@@ -1,0 +1,34 @@
+name: Receipt boundary challenge
+
+on:
+  push:
+    paths:
+      - .github/workflows/receipt-challenge.yml
+      - artifacts/challenge_receipts.py
+      - artifacts/challenge_receipts.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out the exact profile revision and pinned source
+        env:
+          PROFILE_URL: ${{ github.server_url }}/${{ github.repository }}.git
+          PROFILE_SHA: ${{ github.sha }}
+        run: |
+          git clone --no-checkout "$PROFILE_URL" profile
+          git -C profile checkout "$PROFILE_SHA"
+          git clone https://github.com/aruintelligence/aru-remembrance-field.git field
+          git -C field checkout 6238cfdae41adbc6ec858161eaa965573be6114d
+          node --version
+          python3 --version
+
+      - name: Run both auditors and compare the published report
+        run: |
+          python3 profile/artifacts/challenge_receipts.py "$PWD/field" > observed.json
+          diff -u profile/artifacts/challenge_receipts.json observed.json
