@@ -9,6 +9,8 @@
 3. [Read the numerical checks PDF](https://zenodo.org/records/18168723/files/Numerical_Consistency_Checks_for_the_First_Law_of_Inward_Physics.pdf?download=1) and note that the checks are internal 0D/1D simulations, not observations of a physical field.
 4. [Read the experimental roadmap](https://doi.org/10.5281/zenodo.18708708) for proposed empirical probes and null expectations.
 
+**Technical review in ten minutes:** inspect the [Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field), run the [independent numerical audit](./artifacts/audit_reaction_diffusion.py), compare its [recorded JSON](./artifacts/audit_reaction_diffusion.json), and read the [limits and resolved grid challenge](./artifacts/audit-reaction-diffusion.md). The browser demo and this 1D PDF model use different updates; the audit checks software consistency, while the roadmap describes proposed empirical tests.
+
 ## Zenodo record index
 
 The 39 records below are the Zenodo DOI works listed on [Daniel Jacob Read IV’s ORCID](https://orcid.org/0009-0000-6133-1872) when checked on 2026-10-20 UTC. Each line condenses its record description in one sentence, rather than asserting that a proposal is established. Two records have no abstract in the returned Zenodo metadata and are marked accordingly. This is a reproducible ORCID-scoped snapshot, not a claim about unlisted records or later versions.
