@@ -1,0 +1,20 @@
+First Law of Inward Physics — key equations (faithful plain-text transcription)
+Source A: Daniel Jacob Read IV, The First Law of Inward Physics: A Memory-Field Origin of Mass, Gravity, Time, and Awareness, DOI 10.5281/zenodo.17296987, pp. 2–3.
+PDF: https://zenodo.org/records/17296987/files/The%20First%20Law%20of%20Inward%20Physics_%20The%20Memory%20Field%20Revelation.pdf?download=1
+
+Proposed scalar field: μ : R³ × R → R⁺.
+Mass postulate: M = κ_M ∫_Ω μ(x,t) d³x.
+Gradient postulate: g(x,t) = −κ_g ∇μ(x,t).
+Local time-rate postulate: dτ/dt = κ_t / μ(x,t).
+Coherence definition: C = ∂μ/∂a, where a denotes attention/awareness input in the PDF.
+Evolution ansatz: ∂μ/∂t = D ∇²μ − λ(μ − μ₀) + S(x,t).
+
+Source B: Daniel Jacob Read IV, The First Law of Inward Physics: A Field-Theoretic Law of Endogenous Registration, DOI 10.5281/zenodo.18159749, pp. 1–2.
+PDF: https://zenodo.org/records/18159749/files/The_First_Law_of_Inward_Physics__The_Law_of_Endogenous_Registration.pdf?download=1
+
+Accumulated registration: A(x,t) = ∫₀ᵗ μ(x,τ) dτ.
+Variance relation: σ²(x,t) = σ₀² exp(−κ A(x,t)), κ > 0.
+Field evolution: ∂μ/∂t = D ∇²μ − ∂V(μ)/∂μ + η(x,t).
+Inward potential: V(μ) = (a/2) μ² + (b/3) μ³ + (c/4) μ⁴.
+
+These are proposed relations and equations from two different First Law records. The two evolution equations are different models and are not asserted to be identical or empirically validated.

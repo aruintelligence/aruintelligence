@@ -1,0 +1,11 @@
+Numerical Consistency Checks for the First Law — printed model expressions
+Source: Daniel Jacob Read IV, Numerical Consistency Checks for the First Law of Inward Physics, DOI 10.5281/zenodo.18168723, p. 1.
+PDF: https://zenodo.org/records/18168723/files/Numerical_Consistency_Checks_for_the_First_Law_of_Inward_Physics.pdf?download=1
+
+Potential in the methods section: V(μ) = (a/2) μ² + (b/3) μ³ + (c/4) μ⁴, with a = 1, b = −3, c = 1.
+Accumulated registration: A(t) = ∫₀ᵗ μ(τ) dτ.
+Variance metric: Var[μ] for the zero-dimensional ensemble, or Var[μ(x)] for the one-dimensional grid.
+
+Stated setup: Euler–Maruyama integration; noise σ_η = 0.1; dt = 0.01; T = 50; initial μ drawn from N(0.5, 0.5); Gaussian shock of magnitude 3 at t = 25; seed 42. The 0D ensemble has N = 1000. The 1D model has L = 10, N_x = 100, D = 0.1, central-difference Laplacian, and periodic boundaries.
+
+The PDF prints an incomplete code sketch rather than a complete executable implementation. It reports weak log-variance fits (0D κ ≈ 0.0005, R² ≈ 0.0107; 1D κ ≈ 0.0146, R² ≈ 0.1200) and instability at high D = 3. Its results are internal computational approximations, not physical measurements. The typeset metric tables have alignment defects; consult the figures and methods before reusing individual table entries.

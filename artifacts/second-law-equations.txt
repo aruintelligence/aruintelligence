@@ -1,0 +1,10 @@
+Second Law of Inward Physics — key equation (faithful plain-text transcription)
+Source: Daniel Jacob Read IV, The Second Law of Inward Physics — The Gradient of Remembrance, DOI 10.5281/zenodo.17297355, p. 1.
+PDF: https://zenodo.org/records/17297355/files/The%20Second%20Law%20of%20Inward%20Physics%20%E2%80%94%20The%20Gradient%20of%20Remembrance.pdf?download=1
+
+Proposed relation: ∇ · R(x,t) = α · ∇²μ(x,t).
+R(x,t): memory reaction field (the record's name for a structure-forming vector field).
+μ(x,t): normalized memory density (the record states bits/m³).
+α: structural resonance coefficient (the record leaves its units medium-dependent).
+
+This text reproduces the PDF's formal expression, not evidence that R, μ, or α are measured physical quantities. The equation alone does not specify boundary conditions or a unique R.
