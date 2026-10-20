@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes nine profile-repository source and audit files."
+    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes ten profile-repository source, audit, and review files."
   },
   "artifact_files": [
     {
@@ -396,6 +396,10 @@
     {
       "name": "audit_reaction_diffusion.json",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/audit_reaction_diffusion.json"
+    },
+    {
+      "name": "receipt-review.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/receipt-review.md"
     }
   ]
 }
