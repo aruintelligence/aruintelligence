@@ -129,12 +129,20 @@ The [published minimal simulator](https://doi.org/10.5281/zenodo.18010911) updat
 | N / steps | 400 / 400 | Spatial grid and update count |
 | dt | 0.45 dx²/(2D) | Explicit step in the PDF |
 
+## How to challenge the model
+
+| Question | Public starting point | What the check can establish |
+|---|---|---|
+| Does the disclosed toy update run as written? | [Replay the reaction–diffusion transcription](./artifacts/reproducible-demo.md) and inspect [the numerical-checks paper](https://doi.org/10.5281/zenodo.18168723). | Reproducibility of a specified computation, subject to the paper's incomplete code sketch and stated numerical limits. |
+| Do results survive changed assumptions and negative controls? | Use the [Experimental Roadmap](https://doi.org/10.5281/zenodo.18708708) to predeclare a bounded probe, null expectation, sensitivity range, and analysis before collecting data. | Whether a specific prediction survives a documented test; it may fail. |
+| Is μ a measured physical field? | Publish methods, raw observations, calibration, and independent replication tied to a prespecified observable. | A later empirical claim could be evaluated; the linked simulations alone do not establish one. |
+
 ## Provenance and scope
 
 - [The First Law research blog](https://thefirstlawofinwardphysics.blogspot.com/) · [ORCID](https://orcid.org/0009-0000-6133-1872) · [public repository registry](https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md).
-- [Research standards](https://github.com/aruintelligence/aruintelligence/blob/main/RESEARCH_STANDARDS.md) distinguish proposed, simulated, observed, and independently validated work.
+- [Research standards](https://github.com/aruintelligence/aruintelligence/blob/main/RESEARCH_STANDARDS.md) distinguish proposed, simulated, observed, and independently validated work. The [publication log](./PUBLICATION_LOG.md) lists every cross-link commit and the running count.
 - The numerical-checks paper itself limits its results to computational approximations. It reports weak fitted suppression, and does not supply empirical confirmation of the field. The archive includes conceptual and metaphysical texts alongside formal models; readers should use each record’s stated scope.
 
 ## Linked artifact count
 
-**84 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 6 files in the artifact folder. ORCID, blog, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**84 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 6 files in the artifact folder. ORCID, blog, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
