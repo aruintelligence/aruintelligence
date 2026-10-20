@@ -119,6 +119,7 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Receipt review](./artifacts/receipt-review.md) — pinned Node replay of a public cited-answer fixture and a one-field tamper case, with exact output and trust limits.
 - [Two-implementation receipt challenge](./artifacts/receipt-boundary-challenge.md), [runnable case generator](./artifacts/challenge_receipts.py), [recorded JSON output](./artifacts/challenge_receipts.json), and [continuous replay workflow](./.github/workflows/receipt-challenge.yml) — ten synthetic cases through the existing Node and independent Python auditors, including a consistent forged-claim negative control. [First workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) succeeded.
 - [Boundedness certificate](./artifacts/invariant-certificate.md), [runnable source sweep](./artifacts/invariant_certificate.py), and [recorded JSON output](./artifacts/invariant_certificate.json) — a sufficient no-clipping condition for the PDF's explicit 1D update, plus a failing-bound case with no observed clipping and an extreme case that clips.
+- [Third Law source audit](./artifacts/third-law-source-audit.md), [runnable analytic check](./artifacts/third_law_check.py), and [exact-solution comparison](./artifacts/third-law-check-results.md) — source-grounded limits and a reproducible toy-case check of DOI 10.5281/zenodo.17314619; this is mathematical consistency, not empirical validation.
 
 ## Seven-day visibility notes
 
@@ -155,4 +156,4 @@ The [discrete boundedness, contraction, and source-off certificate](./artifacts/
 
 ## Linked artifact count
 
-**95 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 16 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**98 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 19 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
