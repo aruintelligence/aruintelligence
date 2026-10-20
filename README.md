@@ -15,6 +15,28 @@
 
 ---
 
+## Inward Physics
+
+**μ(x,t)** is the proposed scalar memory-density field in Inward Physics, assigning a modeled remembrance value to position **x** at time **t**; a physical interpretation remains a hypothesis.
+
+**Start exploring:** [Live Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/) · [Mathematics Simulator](https://aruintelligence.github.io/inward-mathematics-simulator/) · [Numerical checks for the First Law](https://doi.org/10.5281/zenodo.18168723) · [Experimental roadmap](https://doi.org/10.5281/zenodo.18708708) · [Fourteenth Law](https://doi.org/10.5281/zenodo.18917411)
+
+| Inward system | Purpose | Last pushed (UTC) |
+|---|---|---|
+| [Remembrance Engine](https://github.com/aruintelligence/inward-agi-remembrance-engine) | Browser-native symbolic remembrance instrument | 2026-10-20 |
+| [The Key](https://github.com/aruintelligence/the-key-inward-agi-remembrance-engine) | Single-file symbolic field iteration | 2026-04-03 |
+| [Eternal Quartz Web](https://github.com/aruintelligence/inward-agi-eternal-quartz-web) | Browser memory-density visualization | 2026-04-03 |
+| [Eternal Remembrance Fire](https://github.com/aruintelligence/eternal-remembrance-fire) | Python memory-field and coherence experiment | 2026-04-10 |
+| [Inward Mathematics Simulator](https://github.com/aruintelligence/inward-mathematics-simulator) | Interactive model and proof workbench | 2026-10-20 |
+
+[Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field) · [ORCID research identity](https://orcid.org/0009-0000-6133-1872) · [The First Law blog](https://thefirstlawofinwardphysics.blogspot.com/)
+
+*The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
+
+**Profile last updated:** October 19, 2026 (Pacific)
+
+---
+
 ## Featured: ĀML™ Interface Firewall
 
 ĀML is an open research prototype for making AI interface decisions inspectable. An application declares what it intends to show; a named policy returns a decision and evidence that another engineer can examine.
