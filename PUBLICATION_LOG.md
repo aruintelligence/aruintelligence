@@ -138,3 +138,9 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 
 - [Metadata draft commit](https://github.com/aruintelligence/aruintelligence/commit/64c5dd6369a9ce45bb1961b85b343b52dbe491ab) prepares the Third Law Zenodo description and field checklist without claiming a live Zenodo change.
 - [Landing link commit](https://github.com/aruintelligence/aruintelligence/commit/d1787ca198a23a5f0d5f4089418ce611aa7022d1) and [JSON index commit](https://github.com/aruintelligence/aruintelligence/commit/7d20e3277af2db4113b613c0e9c7672b85cbf239) make the new file discoverable and reconcile the index with all twenty artifact files.
+
+## Third Law DOI correction published · 2026-10-20 UTC
+
+- [Zenodo record 17314619](https://zenodo.org/records/17314619) was read back after publication. It now shows a scoped description, PDF-aligned CC BY-NC-ND 4.0, creator `Read IV, Daniel Jacob`, version `1.0 — Archive Edition`, and eight separate subjects. A stray unrelated MeSH entry was removed and absence verified on the final public page. The PDF remains the original two-page deposit; the analytic check is a toy-case software check.
+- [Metadata status commit](https://github.com/aruintelligence/aruintelligence/commit/997748bb30261fa7251dd816bb8ac7e4a9a90576) records verified publication. [Landing update commit](https://github.com/aruintelligence/aruintelligence/commit/62fc0a748dc3e4ece83bfb64d59e40106d26883c) corrects the one-line record abstract. The linked-artifact count remains **99**.
+- The inherited contributor ORCID and five related-work directions need individual identity/source checks. [Issue #4](https://github.com/aruintelligence/aruintelligence/issues/4) continues to track them.
