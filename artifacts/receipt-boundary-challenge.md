@@ -13,6 +13,8 @@ python3 /path/to/profile-checkout/artifacts/challenge_receipts.py "$PWD"
 
 The [challenge script](./challenge_receipts.py) accepts only that pinned commit, never modifies its checkout, creates isolated temporary JSON copies, invokes both checkers, prints JSON, and exits nonzero if a verdict, exit code, or expected checkpoint rejection differs. The [recorded output](./challenge_receipts.json) is the run from 2026-10-20 UTC. Re-run it with a local checkout of this profile repository as `/path/to/profile-checkout`.
 
+The [read-only GitHub Actions workflow](../.github/workflows/receipt-challenge.yml) runs on changes to the script, report, or workflow, and can be started manually. It checks out the triggered profile commit and pinned field commit, then compares the rerun with the committed JSON. Its [first run succeeded](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047); that is first-party continuous replay, not independent validation.
+
 | Synthetic case | Node | Python | Meaning |
 |---|---|---|---|
 | Original receipt, baseline, checkpoint | MATCH | MATCH | The supplied example is consistent under both implementations. |
