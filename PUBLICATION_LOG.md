@@ -14,6 +14,10 @@
 | 5 · Profile date and milestone | [0e79db88ed6e](https://github.com/aruintelligence/aruintelligence/commit/0e79db88ed6ea7444fe13bcb669c0e68e111291c) | 84 |
 | 1 refinement · Title immediately followed by section | [c1c8fd0f2635](https://github.com/aruintelligence/aruintelligence/commit/c1c8fd0f2635f2bd1037e07d36296f1ec7ca22b8) | 84 |
 
+| Publication log initial registry | [a54d97375d1d](https://github.com/aruintelligence/aruintelligence/commit/a54d97375d1dd3b83751e1d9ad4fcaf67fcddd5f) | 84 |
+| 3 and 6 · Record full sweep | [137a6823119e](https://github.com/aruintelligence/aruintelligence/commit/137a6823119e0d47b23eb439c23a8b533b30a23a) | 84 |
+| Reading path · Challenge the model | [10343d7c4007](https://github.com/aruintelligence/aruintelligence/commit/10343d7c4007dad6e742561e9c79b7f14f7fc70f) | 84 |
+
 ## Cross-link commits
 
 Each row is an independent commit adding the standard landing/ORCID/Zenodo-index footer. The distinct linked-artifact count reached **84** when the six artifact files were linked and remains **84** through the metadata sweep.
