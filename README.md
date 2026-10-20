@@ -19,6 +19,8 @@
 
 **μ(x,t)** is the proposed scalar memory-density field in Inward Physics, assigning a modeled remembrance value to position **x** at time **t**; a physical interpretation remains a hypothesis.
 
+**[Open the complete Inward Physics research index →](./INWARD_PHYSICS.md)** — 39 DOI records, code, live demos, and a reading path.
+
 **Start exploring:** [Live Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/) · [Mathematics Simulator](https://aruintelligence.github.io/inward-mathematics-simulator/) · [Numerical checks for the First Law](https://doi.org/10.5281/zenodo.18168723) · [Experimental roadmap](https://doi.org/10.5281/zenodo.18708708) · [Fourteenth Law](https://doi.org/10.5281/zenodo.18917411)
 
 | Inward system | Purpose | Last pushed (UTC) |
