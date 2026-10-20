@@ -65,6 +65,14 @@ def measures(values, dx=DX):
     }
 
 
+def periodic_interpolate(values, x, dx, left=-10.0, length=20.0):
+    """Linearly sample an endpoint-exclusive grid on the same periodic domain."""
+    fractional = ((x - left) % length) / dx
+    lower = math.floor(fractional)
+    weight = fractional - lower
+    return values[lower % len(values)] * (1.0 - weight) + values[(lower + 1) % len(values)] * weight
+
+
 def audit():
     xs = grid()
     start = initial(xs)
@@ -82,6 +90,31 @@ def audit():
     half, half_clip = replay(start, amps, steps=2 * STEPS, dt=DT / 2.0)
     half_difference = max(abs(a - b) for a, b in zip(final, half))
 
+    # Compare a 20-unit periodic domain with one endpoint omitted, at the
+    # reference physical time. The step count is rounded, then dt is adjusted.
+    exclusive_dx = 20.0 / CELLS
+    exclusive_xs = [-10.0 + i * exclusive_dx for i in range(CELLS)]
+    physical_time = STEPS * DT
+    exclusive_steps = round(physical_time / (0.45 * exclusive_dx**2 / (2.0 * D)))
+    exclusive_dt = physical_time / exclusive_steps
+    exclusive, exclusive_clip = replay(initial(exclusive_xs), forcing(exclusive_xs),
+                                       steps=exclusive_steps, dt=exclusive_dt,
+                                       dx=exclusive_dx)
+    exclusive_on_reference = [periodic_interpolate(exclusive, x, exclusive_dx) for x in xs]
+    endpoint_difference = max(abs(a - b) for a, b in zip(final, exclusive_on_reference))
+
+    # This is an intentionally extreme synthetic source, separate from the
+    # paper's reference trajectory, so the clamp must activate exactly once.
+    synthetic = [BASELINE] * 5
+    synthetic_amp = [0.0, 0.0, 1000.0, 0.0, 0.0]
+    synthetic_next, synthetic_clip = step(synthetic, synthetic_amp)
+    raw_center = BASELINE + DT * 1000.0 * (1.0 - BASELINE / CEILING)
+    predicted_mass_change = DT * DX * 1000.0 * (1.0 - BASELINE / CEILING)
+    clipped_excess = DX * max(0.0, raw_center - CEILING)
+    clamp_residual = DX * (sum(synthetic_next) - sum(synthetic)) - (
+        predicted_mass_change - clipped_excess
+    )
+
     uniform = [BASELINE + 0.5] * CELLS
     relaxed, relaxed_clip = step(uniform, [0.0] * CELLS)
     expected_relaxed = BASELINE + 0.5 * (1.0 - DECAY * DT)
@@ -92,6 +125,7 @@ def audit():
         "unclipped_first_step_mass_balance": one_clip == 0 and abs(mass_residual) < 1e-11,
         "uniform_relaxation_one_step": relaxed_clip == 0 and uniform_error < 1e-12,
         "source_zero_at_ceiling": all(a * (1.0 - CEILING / CEILING) == 0.0 for a in amps),
+        "synthetic_clamp_mass_accounting": synthetic_clip == 1 and abs(clamp_residual) < 1e-12,
         "published_transcription_regression": abs(reference["mean"] - 0.2154056632) < 1e-9
         and abs(reference["variance"] - 0.0566952393) < 1e-9
         and abs(reference["integrated_mass"] - 4.3189105397) < 1e-8,
@@ -130,6 +164,19 @@ def audit():
         "half_step_same_time": {"steps": 2 * STEPS, "clipped_cells": half_clip,
                                 "max_absolute_difference": half_difference,
                                 "integrated_mass": measures(half)["integrated_mass"]},
+        "endpoint_exclusive_same_time": {
+            "domain_length": 20.0, "cells": CELLS, "dx": exclusive_dx,
+            "steps": exclusive_steps, "dt": exclusive_dt,
+            "simulated_time": physical_time, "clipped_cells": exclusive_clip,
+            "comparison": "linear periodic interpolation onto inclusive-grid coordinates",
+            "max_absolute_profile_difference": endpoint_difference,
+            "integrated_mass": measures(exclusive, exclusive_dx)["integrated_mass"],
+        },
+        "synthetic_clamp": {"source_amplitude_at_center": 1000.0,
+                            "clipped_cells": synthetic_clip,
+                            "raw_center_before_clip": raw_center,
+                            "clipped_mass": clipped_excess,
+                            "mass_balance_residual": clamp_residual},
         "diagnostics": {"periodic_laplacian_integral": sum(lap) * DX,
                         "first_step_mass_balance_residual": mass_residual,
                         "uniform_relaxation_max_error": uniform_error},
