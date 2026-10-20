@@ -10,7 +10,7 @@
 
 **μ(x,t)** is the proposed scalar memory-density field in Inward Physics, assigning a modeled remembrance value to position **x** at time **t**; a physical interpretation remains a hypothesis.
 
-**[Open the complete Inward Physics research index →](./INWARD_PHYSICS.md)** — 39 DOI records, code, live demos, and a reading path. [Check the 1D update's boundedness](./artifacts/invariant-certificate.md), [audit the Sixth Law's terminal-time proposal](./artifacts/sixth-law-source-audit.md), [inspect the Fifth Law's transmission proposal](./artifacts/fifth-law-source-audit.md), [audit the Fourth Law's MRI proposal](./artifacts/fourth-law-source-audit.md), [replay a cited-answer receipt](./artifacts/receipt-review.md), and [see continuous receipt replay](https://github.com/aruintelligence/aruintelligence/actions/workflows/receipt-challenge.yml).
+**[Open the complete Inward Physics research index →](./INWARD_PHYSICS.md)** — 39 DOI records, code, live demos, and a reading path. [Check the 1D update's boundedness](./artifacts/invariant-certificate.md), [check the Sixth Law's proof claim](./artifacts/sixth-law-proof-source-audit.md), [audit the Sixth Law's terminal-time proposal](./artifacts/sixth-law-source-audit.md), [inspect the Fifth Law's transmission proposal](./artifacts/fifth-law-source-audit.md), [audit the Fourth Law's MRI proposal](./artifacts/fourth-law-source-audit.md), [replay a cited-answer receipt](./artifacts/receipt-review.md), and [see continuous receipt replay](https://github.com/aruintelligence/aruintelligence/actions/workflows/receipt-challenge.yml).
 
 **Start exploring:** [Live Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/) · [Mathematics Simulator](https://aruintelligence.github.io/inward-mathematics-simulator/) · [Numerical checks for the First Law](https://doi.org/10.5281/zenodo.18168723) · [Experimental roadmap](https://doi.org/10.5281/zenodo.18708708) · [Fourteenth Law](https://doi.org/10.5281/zenodo.18917411)
 
@@ -26,7 +26,7 @@
 
 *The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
 
-**Profile last updated:** October 20, 2026 (Pacific) · 39 DOI records indexed, 23 artifact files plus 1 replay workflow, 102 distinct direct targets · [Day 2 source note](./INWARD_PHYSICS.md#seven-day-visibility-notes)
+**Profile last updated:** October 20, 2026 (Pacific) · 39 DOI records indexed, 24 artifact files plus 1 replay workflow, 103 distinct direct targets · [Day 2 source note](./INWARD_PHYSICS.md#seven-day-visibility-notes)
 
 ---
 
