@@ -117,7 +117,7 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Reproducible demo note](./artifacts/reproducible-demo.md) and [runnable Python transcription](./artifacts/reproduce_reaction_diffusion.py) — source equation, discrete step, parameters, and a local replay.
 - [Independent software audit](./artifacts/audit-reaction-diffusion.md), [standard-library checker](./artifacts/audit_reaction_diffusion.py), and [recorded JSON output](./artifacts/audit_reaction_diffusion.json) — mass balance, controls, cross-implementation replay, and a failed-parameter negative control.
 - [Receipt review](./artifacts/receipt-review.md) — pinned Node replay of a public cited-answer fixture and a one-field tamper case, with exact output and trust limits.
-- [Two-implementation receipt challenge](./artifacts/receipt-boundary-challenge.md), [runnable case generator](./artifacts/challenge_receipts.py), and [recorded JSON output](./artifacts/challenge_receipts.json) — ten synthetic cases through the existing Node and independent Python auditors, including a consistent forged-claim negative control.
+- [Two-implementation receipt challenge](./artifacts/receipt-boundary-challenge.md), [runnable case generator](./artifacts/challenge_receipts.py), [recorded JSON output](./artifacts/challenge_receipts.json), and [continuous replay workflow](./.github/workflows/receipt-challenge.yml) — ten synthetic cases through the existing Node and independent Python auditors, including a consistent forged-claim negative control. [First workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) succeeded.
 
 ## Seven-day visibility notes
 
@@ -152,4 +152,4 @@ The [software audit](./artifacts/audit-reaction-diffusion.md) independently repr
 
 ## Linked artifact count
 
-**91 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 13 files in the artifact folder. ORCID, blog, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
+**92 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 13 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. Snapshot: 2026-10-20 UTC.
