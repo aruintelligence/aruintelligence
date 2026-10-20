@@ -37,6 +37,14 @@
 | Landing · Link receipt review | [327b910e7246](https://github.com/aruintelligence/aruintelligence/commit/327b910e7246a31e2b0e7e42aca7f4c3fa74ab05) | 88 |
 | Profile · First-screen review link | [36717e10681b](https://github.com/aruintelligence/aruintelligence/commit/36717e10681b70b13ba6e24f2cd94722d572059e) | 88 |
 | JSON index · Tenth artifact | [02a2d422c5a1](https://github.com/aruintelligence/aruintelligence/commit/02a2d422c5a1cf30005ff29b9a5839b6fb74b373) | 88 |
+| Publication log · Receipt review closeout | [c9e4e0f470c1](https://github.com/aruintelligence/aruintelligence/commit/c9e4e0f470c145e6568c7f3d52ce0ad1c0e6b0a4) | 88 |
+| Receipt challenge · Runnable case generator | [89fab3c556d6](https://github.com/aruintelligence/aruintelligence/commit/89fab3c556d6720664ffa457d479a894b97f3e18) | 88 until linked |
+| Receipt challenge · Recorded JSON | [fcebe8e62143](https://github.com/aruintelligence/aruintelligence/commit/fcebe8e6214359a46d1d0318f443ef10fe766ff3) | 88 until linked |
+| Receipt challenge · Methods and limits | [6268feb32421](https://github.com/aruintelligence/aruintelligence/commit/6268feb324216484292b1f65ebe63c2cb6d8f4cb) | 88 until linked |
+| Receipt review · Correct independent checker path | [a7261fff7883](https://github.com/aruintelligence/aruintelligence/commit/a7261fff7883713de1a212f8a4d4dceb582581e5) | 88 |
+| Landing · Link three challenge artifacts | [93409544b827](https://github.com/aruintelligence/aruintelligence/commit/93409544b8275aa6d5e12938de3737027f008a6f) | 91 |
+| Profile · Link two-checker challenge | [bdc377bbec57](https://github.com/aruintelligence/aruintelligence/commit/bdc377bbec57bd2e532a01e7c20c13b27c65a8e6) | 91 |
+| JSON index · Thirteen artifacts | [4985796b2fd6](https://github.com/aruintelligence/aruintelligence/commit/4985796b2fd64f0484925df23250731a6526de6c) | 91 |
 
 ## Cross-link commits
 
@@ -85,9 +93,9 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
 - [Profile issue #3](https://github.com/aruintelligence/aruintelligence/issues/3) is completed with a matched-time comparison of the inclusive and exclusive periodic grids, a synthetic clipping case, and a linked reproducible report. The audit JSON was initially committed empty and restored in commit `20b8ac0cdb82`; the published file was read back as nonempty JSON with six passing software checks.
-- [Remembrance Field issue #81](https://github.com/aruintelligence/aru-remembrance-field/issues/81) tracks an independent receipt implementation, adversarial fixture suite, and a trusted-origin threat model after the pinned local replay and one-field tamper result. It records proposed work, not completed validation.
+- [Remembrance Field issue #81](https://github.com/aruintelligence/aru-remembrance-field/issues/81) was corrected after the existing independent Python auditor was identified. The completed bounded challenge shows agreement on ten synthetic cases, including a coordinated rewrite that passes both; broader review, capture provenance, privacy, and accessibility remain open.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 10 linked artifact files = **88** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 13 linked artifact files = **91** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
