@@ -35,7 +35,7 @@
 
 *The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
 
-**Profile last updated:** October 19, 2026 (Pacific)
+**Profile last updated:** October 19, 2026 (Pacific) · 39 DOI records indexed, 6 sourced artifacts added
 
 ---
 
