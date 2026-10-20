@@ -125,7 +125,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 20 linked artifact files + 1 workflow file = **99** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 21 linked artifact files + 1 workflow file = **100** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
 
 ## Third Law source audit and mathematical check · 2026-10-20 UTC
 
@@ -144,3 +144,10 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - [Zenodo record 17314619](https://zenodo.org/records/17314619) was read back after publication. It now shows a scoped description, PDF-aligned CC BY-NC-ND 4.0, creator `Read IV, Daniel Jacob`, version `1.0 — Archive Edition`, and eight separate subjects. A stray unrelated MeSH entry was removed and absence verified on the final public page. The PDF remains the original two-page deposit; the analytic check is a toy-case software check.
 - [Metadata status commit](https://github.com/aruintelligence/aruintelligence/commit/997748bb30261fa7251dd816bb8ac7e4a9a90576) records verified publication. [Landing update commit](https://github.com/aruintelligence/aruintelligence/commit/62fc0a748dc3e4ece83bfb64d59e40106d26883c) corrects the one-line record abstract. The linked-artifact count remains **99**.
 - The inherited contributor ORCID and five related-work directions need individual identity/source checks. [Issue #4](https://github.com/aruintelligence/aruintelligence/issues/4) continues to track them.
+
+## Fourth Law DOI correction · 2026-10-20 UTC
+
+- [Zenodo record 17317217](https://zenodo.org/records/17317217) was edited and read back publicly: a three-paragraph description identifies the proposed equation, hypotheses, absence of scored MRI results, and unspecified operator/time limits; the creator now displays `Read IV, Daniel Jacob`; one bulk keyword was replaced by eight separate subjects. CC BY 4.0, the copyright line, version label, contributor, and five inherited related-work directions were retained for individual review.
+- [Source audit commit](https://github.com/aruintelligence/aruintelligence/commit/abe41b49e4b65c8ea2316f147824d81d11aeb66f) records the PDF's printed expression and what would be needed to test it. [Landing commit](https://github.com/aruintelligence/aruintelligence/commit/60867ee37f8d327e1b6c8e7e3429dcb0ca374edd), [JSON index commit](https://github.com/aruintelligence/aruintelligence/commit/42334300766feae88c1454a382e047f14d4b4425), and [profile commit](https://github.com/aruintelligence/aruintelligence/commit/b69c1dd5c5f2e1423a6272950bab9448541e1126) link the note and refresh the count. [Issue #5](https://github.com/aruintelligence/aruintelligence/issues/5) tracks the research and rights questions.
+
+**Current count:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 21 linked artifact files + 1 workflow file = **100** distinct direct targets. Issues, ORCID, blog, and navigation links are excluded.
