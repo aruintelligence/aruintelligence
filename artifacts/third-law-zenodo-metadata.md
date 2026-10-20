@@ -1,9 +1,9 @@
 # Proposed Zenodo metadata correction — Third Law
 
 **Target:** [10.5281/zenodo.17314619](https://doi.org/10.5281/zenodo.17314619)  
-**Status:** Prepared replacement text. **Not yet applied to Zenodo.** The deposited two-page PDF remains the archival source. See the [source audit](./third-law-source-audit.md) and [reproducible equation check](./third-law-check-results.md).
+**Status:** Applied and verified on the public Zenodo record on 20 October 2026. The deposited two-page PDF remains the archival source. See the [source audit](./third-law-source-audit.md) and [reproducible equation check](./third-law-check-results.md).
 
-## Description — paste as three paragraphs
+## Published description (three paragraphs)
 
 This self-published two-page report proposes the Third Law of Inward Physics, called Remembrance Amplification. It writes dR/dt = β(∇²μ(x,t))R(x,t), with R termed a memory reaction field, μ a memory-density field, and β a recursive gain constant. It also proposes a directional expression s_ij = β R_i R_j ∇_i∇_j μ and discusses physical, cognitive, and civilizational interpretations. The connections to life, identity, and consciousness are hypotheses rather than demonstrated consequences.
 
@@ -11,7 +11,7 @@ Scope and mathematical clarification (20 October 2026): The PDF reports no measu
 
 Author: Daniel Jacob Read IV, ĀRU Intelligence Inc. The deposited PDF states CC BY-NC-ND 4.0. This report follows the First and Second Law proposals. It has not undergone independent empirical validation in this deposit.
 
-## Other fields to set after checking the live form
+## Field-by-field publication check
 
 | Field | Source-grounded setting | Verification |
 |---|---|---|
@@ -24,4 +24,4 @@ Author: Daniel Jacob Read IV, ĀRU Intelligence Inc. The deposited PDF states CC
 
 ## Publication check
 
-After saving and publishing, open the public record. Verify the exact description, license, version, individual subjects, creator/ORCID and relation direction. Record the public URL and update [issue #4](https://github.com/aruintelligence/aruintelligence/issues/4). A PDF correction or substantive new theory must use a new Zenodo version, with a change log; editing record metadata cannot rewrite the existing PDF.
+The public record at [DOI 10.5281/zenodo.17314619](https://zenodo.org/records/17314619) displays the scoped description, `1.0 — Archive Edition`, eight individual subjects, Daniel Jacob Read IV as creator, and CC BY-NC-ND 4.0. The unrelated MeSH subject introduced during editing was removed and the public list verified clean. The existing contributor ORCID `0009-0009-2068-1521` and five inherited related-work directions remain to be investigated individually; the author's separate ORCID in the project index is `0009-0000-6133-1872`. [Issue #4](https://github.com/aruintelligence/aruintelligence/issues/4) records the remaining identity and relation checks. A PDF correction or substantive new theory must use a new Zenodo version, with a change log; editing record metadata cannot rewrite the existing PDF.
