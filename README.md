@@ -4,16 +4,7 @@
 
 # Building intelligence that remembers
 
-**Memory-centered AI · Ethical computing · Coherence systems · Inward Physics™**
-
-[![Website](https://img.shields.io/badge/Official_Website-aruintelligence.com-07121b?style=for-the-badge)](https://aruintelligence.com/)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0000--6133--1872-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0000-6133-1872)
-[![Research](https://img.shields.io/badge/Publications-Zenodo-1682D4?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Read%2C%20Daniel%20Jacob%20IV%22)
-[![LinkedIn](https://img.shields.io/badge/Daniel_Read-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/daniel-read-644640434)
-
 </div>
-
----
 
 ## Inward Physics
 
