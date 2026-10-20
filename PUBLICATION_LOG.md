@@ -58,6 +58,11 @@
 | Landing · Link boundedness analysis | [3740623a9ec6](https://github.com/aruintelligence/aruintelligence/commit/3740623a9ec625d0bfaf1a61869abd61bed7aae2) | 95 |
 | Profile · Feature boundedness | [9a7b948e0d3a](https://github.com/aruintelligence/aruintelligence/commit/9a7b948e0d3a1ed9c11532a535a6af9715f5773f) | 95 |
 | JSON index · Sixteen artifacts | [fecfbaa36caa](https://github.com/aruintelligence/aruintelligence/commit/fecfbaa36caa90317f0b11efd4d7e40c3f2ca812) | 95 |
+| Publication log · Boundedness closeout | [df0936101cfe](https://github.com/aruintelligence/aruintelligence/commit/df0936101cfedfe3aed68a229ddae292ef29f051) | 95 |
+| Model · Two-initial-state replay code | [7dca49753797](https://github.com/aruintelligence/aruintelligence/commit/7dca497537975ff7e1a6a5b42ffe694a87ea5019) | 95 |
+| Model · Contraction JSON results | [a3190a1ef68f](https://github.com/aruintelligence/aruintelligence/commit/a3190a1ef68fa57664e3f9dd5ff387f7fcbb821d) | 95 |
+| Model · Contraction derivation | [96995c39375d](https://github.com/aruintelligence/aruintelligence/commit/96995c39375d846b6b6ec628c1c1ec02e7f14d04) | 95 |
+| Landing · Scope initial-condition claim | [42df2b76b849](https://github.com/aruintelligence/aruintelligence/commit/42df2b76b849fc9cc7fb6991e464fb250c1460f4) | 95 |
 
 ## Cross-link commits
 
@@ -109,6 +114,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - [Remembrance Field issue #81](https://github.com/aruintelligence/aru-remembrance-field/issues/81) was corrected after the existing independent Python auditor was identified. The completed bounded challenge shows agreement on ten synthetic cases, including a coordinated rewrite that passes both; broader review, capture provenance, privacy, and accessibility remain open.
 - [Receipt challenge workflow run](https://github.com/aruintelligence/aruintelligence/actions/runs/39375514047) completed successfully on the pinned dual-checker replay. The workflow compares a rerun to the committed report; this is first-party automation, not external validation.
 - The [boundedness certificate](./artifacts/invariant-certificate.md) derives a sufficient invariant interval for the published 1D explicit update. Its 5-amplitude software sweep shows the bound is sufficient rather than necessary; only the extreme synthetic case clips. It does not test the existence of a physical field.
+- The certificate now also derives a contraction under the same fixed source. A Gaussian initial state and uniform baseline state approach each other within the analytic bound after 400 and 4,000 steps. This identifies what the printed toy update can and cannot retain from its initial condition; no new direct target was added, so the count stays 95.
 - All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
