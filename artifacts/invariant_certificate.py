@@ -21,6 +21,13 @@ INITIAL = [BASELINE + 1.2 * math.exp(-x * x / (2 * 0.9**2)) for x in XS]
 SOURCE_SHAPE = [math.exp(-x * x / (2 * 0.8**2)) for x in XS]
 
 
+def raw_update(values, a):
+    return [u + DT * (D * (values[(i - 1) % CELLS] - 2 * u +
+                             values[(i + 1) % CELLS]) / DX**2
+                     - DECAY * (u - BASELINE) + a[i] * (1 - u / CEILING))
+            for i, u in enumerate(values)]
+
+
 def run(amplitude):
     a = [amplitude * shape for shape in SOURCE_SHAPE]
     # u_new = c_i*u_i + r*(u_left+u_right) + dt*(lambda*mu0+A_i).
@@ -35,10 +42,7 @@ def run(amplitude):
     max_raw = float("-inf")
     min_raw = float("inf")
     for step in range(1, STEPS + 1):
-        raw = [u + DT * (D * (values[(i - 1) % CELLS] - 2 * u +
-                                 values[(i + 1) % CELLS]) / DX**2
-                         - DECAY * (u - BASELINE) + a[i] * (1 - u / CEILING))
-               for i, u in enumerate(values)]
+        raw = raw_update(values, a)
         violations = sum(x < 0 or x > CEILING for x in raw)
         clipped_count += violations
         if violations and first_clip is None:
@@ -52,6 +56,31 @@ def run(amplitude):
             "clipped_cells_over_400_steps": clipped_count,
             "first_clipped_step": first_clip, "raw_min": min_raw,
             "raw_max": max_raw, "final_mean": sum(values) / CELLS}
+
+
+def compare_initial_states():
+    """Evolve published Gaussian and flat baseline under the same fixed source."""
+    a = [0.25 * shape for shape in SOURCE_SHAPE]
+    first = INITIAL.copy()
+    second = [BASELINE] * CELLS
+    initial_distance = max(abs(x - y) for x, y in zip(first, second))
+    q = 1 - DT * DECAY
+    assert 0 <= q < 1
+    checkpoints = []
+    for step in range(1, 4001):
+        first = raw_update(first, a)
+        second = raw_update(second, a)
+        if step in (400, 4000):
+            distance = max(abs(x - y) for x, y in zip(first, second))
+            upper_bound = initial_distance * q**step
+            assert distance <= upper_bound + 1e-12
+            checkpoints.append({"steps": step, "observed_max_distance": distance,
+                                "analytic_upper_bound": upper_bound})
+    return {"initial_max_distance": initial_distance,
+            "per_step_contraction_upper_bound": q,
+            "checkpoints": checkpoints,
+            "source_peak_parameter": 0.25,
+            "comparison": "published Gaussian versus uniform baseline, same fixed source"}
 
 
 def main():
@@ -69,6 +98,7 @@ def main():
               "sufficient_bound": "2*D*dt/dx^2 + dt*(lambda + max(A_i)/mu_max) <= 1",
               "source_peak_parameter_threshold": threshold,
               "cases": cases,
+              "initial_condition_contraction": compare_initial_states(),
               "scope": "Analytic sufficient bound and deterministic software sweep; not empirical validation."}
     print(json.dumps(result, indent=2, sort_keys=True))
 
