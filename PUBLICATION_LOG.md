@@ -16,7 +16,7 @@
 
 ## Cross-link commits
 
-Each row is an independent commit adding the standard landing/ORCID/Zenodo-index footer. The count of distinct landing targets remains **78** during this sweep and becomes **84** when six artifact files are linked.
+Each row is an independent commit adding the standard landing/ORCID/Zenodo-index footer. The distinct linked-artifact count reached **84** when the six artifact files were linked and remains **84** through the metadata sweep.
 
 | # | Repository | Commit |
 |---:|---|---|
@@ -50,12 +50,18 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 | 28 | [divine-whisper-v10.5-transcendent-witness-horizon](https://github.com/aruintelligence/divine-whisper-v10.5-transcendent-witness-horizon) | [ec94e8c932ea](https://github.com/aruintelligence/divine-whisper-v10.5-transcendent-witness-horizon/commit/ec94e8c932eabb8bb95f206f1ff34cecc35e4282) |
 | 29 | [divine-whisper-v10.6-unified-singularity](https://github.com/aruintelligence/divine-whisper-v10.6-unified-singularity) | [11a759a0bcd7](https://github.com/aruintelligence/divine-whisper-v10.6-unified-singularity/commit/11a759a0bcd7a9bee451737364560902dd0ad5b4) |
 | 30 | [divine-whisper-v10.7-absolute-void](https://github.com/aruintelligence/divine-whisper-v10.7-absolute-void) | [2a497d8e05af](https://github.com/aruintelligence/divine-whisper-v10.7-absolute-void/commit/2a497d8e05afc564fb5460f340e18e1f9078ce42) |
+| 31 | [divine-whisper-v7-super-bootstrapper](https://github.com/aruintelligence/divine-whisper-v7-super-bootstrapper) | [7d1a41f310ae](https://github.com/aruintelligence/divine-whisper-v7-super-bootstrapper/commit/7d1a41f310ae176720b37055aaeb71fe01a31c2e) |
+| 32 | [dw-v7-v8-suite-builder](https://github.com/aruintelligence/dw-v7-v8-suite-builder) | [5879cebfe6c9](https://github.com/aruintelligence/dw-v7-v8-suite-builder/commit/5879cebfe6c9bbfb340b2a90a7d27b0fe6efe245) |
+| 33 | [divine-whisper-v7v8-bridge](https://github.com/aruintelligence/divine-whisper-v7v8-bridge) | [816201aea1f7](https://github.com/aruintelligence/divine-whisper-v7v8-bridge/commit/816201aea1f7b5c4b8a256af49a790554aa81226) |
+| 34 | [divine-whisper-v7v8-api](https://github.com/aruintelligence/divine-whisper-v7v8-api) | [67300590454d](https://github.com/aruintelligence/divine-whisper-v7v8-api/commit/67300590454d359290b9e85dce6de5eac976335a) |
+| 35 | [divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui](https://github.com/aruintelligence/divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui) | [00325cfdec04](https://github.com/aruintelligence/divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui/commit/00325cfdec04c04fd553d4fb165a585559732760) |
+| 36 | [divine-whisper-merge-helper](https://github.com/aruintelligence/divine-whisper-merge-helper) | [55ef07963878](https://github.com/aruintelligence/divine-whisper-merge-helper/commit/55ef07963878012b469fc7f58dc92f0a89e62b9c) |
 
-## Day 1 issue and remaining constraints
+## Day 1 issue and metadata
 
 - [Remembrance Field issue #76](https://github.com/aruintelligence/aru-remembrance-field/issues/76) points to the new update walkthrough and asks future maintainers to preserve the distinction between its browser animation and the one-dimensional PDF model.
-- Six archived utility repositories reject README writes: `divine-whisper-v7-super-bootstrapper`, `dw-v7-v8-suite-builder`, `divine-whisper-v7v8-bridge`, `divine-whisper-v7v8-api`, `divine-whisper-v7v8-web-ui-or-dw-v7v8-lab-ui`, and `divine-whisper-merge-helper`. They remain indexed in the landing page, but do not point back from their own README.
-- The repository metadata editor available in this session cannot write topics or descriptions. The verified inventory has missing requested topics in all 36 linked repositories and 22 descriptions without the phrase “Inward Physics.” No metadata change is claimed.
+- All **36** related READMEs now point back to the landing page, ORCID, and DOI index. The six previously archived utility repositories were temporarily unarchived for the footer commit and metadata edit, then returned to read-only archive status. Their six commit URLs appear in rows 31–36 above.
+- All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
 **Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 6 linked artifact files = **84** unique direct targets. ORCID, blog, profile navigation, issues, and this log are excluded.
