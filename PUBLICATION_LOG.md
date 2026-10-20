@@ -125,7 +125,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - All **36** related repositories, plus the profile repository, have the three requested topics `inward-physics`, `memory-field`, and `remembrance`. The **22** related descriptions that lacked “Inward Physics” now include it. Existing topics were preserved. Public repository metadata was checked after publishing; the profile and simulator description were checked separately.
 - The remaining six daily runs are scheduled from October 20 through October 25, 2026, Pacific time. Each run is instructed to add one source-grounded note, update the profile date, link an issue, and recalculate the distinct linked-artifact count.
 
-**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 19 linked artifact files + 1 workflow file = **98** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
+**Count definition:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 20 linked artifact files + 1 workflow file = **99** unique direct targets. ORCID, blog, profile navigation, workflow runs, issues, and this log are excluded.
 
 ## Third Law source audit and mathematical check · 2026-10-20 UTC
 
@@ -134,4 +134,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 - [Results note commit](https://github.com/aruintelligence/aruintelligence/commit/1d6a1f039915df65365afe15fb54a1bd75c9ba32) records exact solutions, Euler step refinement, and an unbounded constant-curvature case. Five focused analytic and convergence checks passed locally. These are model checks, not physical evidence.
 - [Landing-page link commit](https://github.com/aruintelligence/aruintelligence/commit/ed0faba43b8b2007f4d85f0d12a319ca1b693019) raises the distinct target count from **95** to **98**. [Issue #4](https://github.com/aruintelligence/aruintelligence/issues/4) tracks the pending Zenodo metadata repair.
 
-**Current count:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 19 linked artifact files + 1 workflow file = **98** unique direct targets. This counts the three new source/code/results files once each; issue, log, and duplicate links are excluded.
+**Current count:** 39 DOI records + 36 GitHub code repositories + 2 live demos + 1 direct PDF + 20 linked artifact files + 1 workflow file = **99** unique direct targets. The four Third Law source/code/results/metadata files count once each; issue, log, and duplicate links are excluded.
+
+- [Metadata draft commit](https://github.com/aruintelligence/aruintelligence/commit/64c5dd6369a9ce45bb1961b85b343b52dbe491ab) prepares the Third Law Zenodo description and field checklist without claiming a live Zenodo change.
+- [Landing link commit](https://github.com/aruintelligence/aruintelligence/commit/d1787ca198a23a5f0d5f4089418ce611aa7022d1) and [JSON index commit](https://github.com/aruintelligence/aruintelligence/commit/7d20e3277af2db4113b613c0e9c7672b85cbf239) make the new file discoverable and reconcile the index with all twenty artifact files.
