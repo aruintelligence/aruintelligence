@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "clipped_cells_over_400_steps": 0,
+      "coefficient_min": 0.5483040307535757,
+      "final_mean": 0.16847411820163669,
+      "first_clipped_step": null,
+      "raw_max": 1.2966645356697821,
+      "raw_min": 0.1,
+      "sampled_source_max": 0.0,
+      "source_peak_parameter": 0.0,
+      "sufficient_bound_holds": true
+    },
+    {
+      "clipped_cells_over_400_steps": 0,
+      "coefficient_min": 0.5468914164331689,
+      "final_mean": 0.21540566316906554,
+      "first_clipped_step": null,
+      "raw_max": 1.297654022837014,
+      "raw_min": 0.1,
+      "sampled_source_max": 0.24987734713676002,
+      "source_peak_parameter": 0.25,
+      "sufficient_bound_holds": true
+    },
+    {
+      "clipped_cells_over_400_steps": 0,
+      "coefficient_min": 0.26578116667221446,
+      "final_mean": 0.5754078798409202,
+      "first_clipped_step": null,
+      "raw_max": 1.9886269209241043,
+      "raw_min": 0.1,
+      "sampled_source_max": 49.975469427352,
+      "source_peak_parameter": 50.0,
+      "sufficient_bound_holds": true
+    },
+    {
+      "clipped_cells_over_400_steps": 0,
+      "coefficient_min": -0.016741697409146883,
+      "final_mean": 0.6109393708539549,
+      "first_clipped_step": null,
+      "raw_max": 1.9943053591367363,
+      "raw_min": 0.1,
+      "sampled_source_max": 99.950938854704,
+      "source_peak_parameter": 100.0,
+      "sufficient_bound_holds": false
+    },
+    {
+      "clipped_cells_over_400_steps": 11178,
+      "coefficient_min": -5.10215325087365,
+      "final_mean": 0.7130244232210807,
+      "first_clipped_step": 1,
+      "raw_max": 5.264788924865785,
+      "raw_min": 0.1,
+      "sampled_source_max": 999.5093885470401,
+      "source_peak_parameter": 1000.0,
+      "sufficient_bound_holds": false
+    }
+  ],
+  "grid": "400 inclusive linspace coordinates treated as periodic cells",
+  "parameters": {
+    "D": 0.05,
+    "cells": 400,
+    "dt": 0.011306461642828875,
+    "dx": 0.05012531328320802,
+    "lambda": 0.15,
+    "mu0": 0.1,
+    "mu_max": 2.0,
+    "steps": 400
+  },
+  "scope": "Analytic sufficient bound and deterministic software sweep; not empirical validation.",
+  "source_doi": "10.5281/zenodo.18010911",
+  "source_peak_parameter_threshold": 97.03710751630963,
+  "sufficient_bound": "2*D*dt/dx^2 + dt*(lambda + max(A_i)/mu_max) <= 1"
+}
