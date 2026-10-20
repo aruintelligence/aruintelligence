@@ -87,6 +87,34 @@
   },
   "scope": "Analytic sufficient bound and deterministic software sweep; not empirical validation.",
   "source_doi": "10.5281/zenodo.18010911",
+  "source_off_mean_decay": {
+    "checkpoints": [
+      {
+        "exact_discrete_prediction": 0.05852709532585279,
+        "observed_mean_excess": 0.05852709532585312,
+        "residual": 3.3306690738754696e-16,
+        "steps_after_switch": 400
+      },
+      {
+        "exact_discrete_prediction": 0.029681566685885515,
+        "observed_mean_excess": 0.029681566685885813,
+        "residual": 2.983724378680108e-16,
+        "steps_after_switch": 800
+      },
+      {
+        "exact_discrete_prediction": 0.007633900943301536,
+        "observed_mean_excess": 0.0076339009433017135,
+        "residual": 1.7780915628762273e-16,
+        "steps_after_switch": 1600
+      }
+    ],
+    "excess_mean_at_switch": 0.11540566316906553,
+    "half_life_model_time": 4.617061574172578,
+    "half_life_steps": 408.35601092769366,
+    "per_step_excess_retention": 0.9983040307535757,
+    "source_off_steps": 1600,
+    "source_on_steps": 400
+  },
   "source_peak_parameter_threshold": 97.03710751630963,
   "sufficient_bound": "2*D*dt/dx^2 + dt*(lambda + max(A_i)/mu_max) <= 1"
 }
