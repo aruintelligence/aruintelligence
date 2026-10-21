@@ -1,0 +1,26 @@
+# Companion memory-field AI simulator DOI source audit
+
+**Record:** [10.5281/zenodo.18010911](https://zenodo.org/records/18010911) · **public metadata readback:** 2026-10-20 Pacific  
+**Deposited file:** `How_Memory_Fields_Fix_AI_Forgetting.pdf` · 4 A4 pages · 245,247 bytes  
+**Integrity:** Zenodo MD5 `d724bb9f0066b7e497b1469b5be89710`; downloaded SHA-256 `189e9430fe48c5316ac0ae51bef9add95f6764a225f93e8983120f50347a2f3d`. All four pages were rendered and read.
+
+## The inspectable contribution
+
+The report gives a concrete numerical baseline for a proposed memory-density field. Page 1 states `∂μ/∂t = D∇²μ − λ(μ−μ₀)+S(x,t)`. Page 2 supplies a complete 400-cell, 400-step NumPy implementation with `D=.05`, `λ=.15`, `μ₀=.10`, `μ_max=2`, a Gaussian initial state, a **fixed spatial** Gaussian source `A(x)=.25 exp[-x²/(2·.8²)]`, saturation `S=A(1−μ/2)`, periodic neighbors via `np.roll`, explicit `dt=.45 dx²/(2D)`, and a final clip to `[0,2]`. Its diagnostics print mean, population variance, and sum-times-`dx` integrated density, followed by a final profile plot. This is a runnable model of bounded dynamics.
+
+| PDF page | Directly deposited content | Evidence boundary |
+|---|---|---|
+| 1 | Title, Daniel Jacob Read IV, ĀRU Intelligence Inc., December 2025, proposed scalar equation and motivation from AI forgetting. | The cover prints **DOI 10.5281/zenodo.18006990**, which belongs to the different [five-page companion report](https://zenodo.org/records/18006990); this record's DOI is **10.5281/zenodo.18010911**. |
+| 2 | Saturating source expression and full Python rule with grid, initial state, fixed source, periodic stencil, clamp and diagnostic prints. | The code does not implement sequential AI training, intermittent attention pulses, an archive threshold, or a write/read operation. |
+| 3 | Claims of a bounded profile, reduced variance, preserved integrated mass, self-archiving behavior, and AI implications. | No numerical table, raw run log, trained AI benchmark, or archive-trigger procedure accompanies these claims. The source and relaxation terms make integrated density nonconserved in general. |
+| 4 | Archival copyright plate identifying Daniel Jacob Read IV and all-rights-reserved permissions. | Public readability does not supply a reuse license. |
+
+A fresh NumPy 2.3.5 replay of the page 2 rule gives initial mean `0.2350195320`, population variance `0.0963375980`, and integrated density `4.7121710679`; after 400 steps these are respectively `0.2154056632`, `0.0566952393`, and `4.3189105397`. Thus the reported *direction* of variance decrease occurs for the disclosed case, while integrated density decreases by about `0.3932605282`; neither diagnostic is an AI forgetting score or a field measurement. The run's final range is `[0.1, 0.9505216074]`, with no clipping in the reference trajectory. These numbers are **local replay outputs**, not a result table printed in the PDF.
+
+The earlier [independent-loop numerical audit](./audit-reaction-diffusion.md) already records seven passing software checks, a changed-parameter negative control, a synthetic clipping case, and endpoint-exclusive periodic-grid sensitivity. The [boundedness and contraction certificate](./invariant-certificate.md) proves a sufficient invariant-box condition for this fixed-source update and derives exact mean relaxation after the source is turned off. Those checks strengthen confidence in the specified computation, while showing why continued forcing and lasting storage must be tested separately. The related [five-page report's source audit](./minimal-memory-field-ai-source-audit.md) establishes that its Appendix A prints the same parameterized update; the documents and DOIs remain distinct.
+
+## Record metadata and focused next step
+
+Before this review, the public record already had eight separate subjects, the explicit all-rights-reserved copyright, a scope-limited description and DOI-cover erratum, ORCID `0009-0000-6133-1872`, and an inherited `Is supplement to` relation to DOI `10.5281/zenodo.18006990`. This review retained its title, Report type, English, publication date December 21, 2025, version label `v1.0 (First Public Archival Release)`, publisher, ORCID, affiliation, rights, subjects, file/checksum, concept DOI `10.5281/zenodo.18010910`, and relation direction. The cover and PDF author metadata support correcting the creator from `Read, Daniel Jacob` to `Read IV, Daniel Jacob`. The published description now leads with the executable baseline, links the existing project-authored software audit, and then states the cover DOI erratum and limits. Public readback verified the creator and description; the PDF itself was not changed.
+
+For a future version or author-supplied erratum, place the **correct DOI on its own cover** and preserve provenance of the immutable deposit. A claimed solution to catastrophic forgetting needs a specified sequential task, baseline, retention metric, held-out evaluation, and an implemented archive rule. [Issue #12](https://github.com/aruintelligence/aruintelligence/issues/12) tracks these paired-report refinements and individual relation provenance. No empirical, external, or independent physical validation is asserted.
