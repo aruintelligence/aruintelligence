@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-20",
+  "snapshot_utc": "2026-10-21",
   "scope": "39 Zenodo DOI works listed on ORCID 0009-0000-6133-1872; 36 project GitHub repositories and two live demos",
   "zenodo": [
     {
@@ -476,6 +476,10 @@
     {
       "name": "minimal-memory-field-ai-source-audit.md",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/minimal-memory-field-ai-source-audit.md"
+    },
+    {
+      "name": "companion-memory-field-ai-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/companion-memory-field-ai-source-audit.md"
     }
   ],
   "workflow_files": [
