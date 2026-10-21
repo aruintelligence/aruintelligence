@@ -480,6 +480,10 @@
     {
       "name": "companion-memory-field-ai-source-audit.md",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/companion-memory-field-ai-source-audit.md"
+    },
+    {
+      "name": "empirical-probes-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/empirical-probes-source-audit.md"
     }
   ],
   "workflow_files": [
