@@ -1,12 +1,12 @@
 # Inward Physics — public research index
 
-**A navigable map of ĀRU Intelligence’s project-authored proposals, simulations, and preserved software.** The scalar field μ(x,t) is a proposed memory-density variable indexed by position and time; the public code models it, while an independent physical measurement remains to be demonstrated.
+**ĀRU Intelligence’s public Inward Physics research archive:** original conceptual volumes, formal laws, numerical models, proposed experiments, live demonstrations, and preserved software. The proposed scalar μ(x,t) represents memory density across position and time. This index connects each contribution to the deposited source and its mathematical or experimental review path.
 
 ## Start here
 
 1. [Open the live Remembrance Field](https://aruintelligence.github.io/aru-remembrance-field/) and inspect the symbolic 72 × 72 browser visualization.
 2. [Use the Mathematics Simulator](https://aruintelligence.github.io/inward-mathematics-simulator/) for interactive toy models and proof workbenches.
-3. [Read the numerical checks PDF](https://zenodo.org/records/18168723/files/Numerical_Consistency_Checks_for_the_First_Law_of_Inward_Physics.pdf?download=1) and note that the checks are internal 0D/1D simulations, not observations of a physical field.
+3. [Inspect the First Law numerical checks](https://zenodo.org/records/18168723/files/Numerical_Consistency_Checks_for_the_First_Law_of_Inward_Physics.pdf?download=1), including the reported 0D/1D model behavior and its stated limits.
 4. [Read the experimental roadmap](https://doi.org/10.5281/zenodo.18708708) for proposed empirical probes and null expectations.
 
 **Technical review in ten minutes:** [replay a cited-answer receipt](./artifacts/receipt-review.md), inspect the [two-implementation boundary challenge](./artifacts/receipt-boundary-challenge.md), then examine the [Remembrance Field source](https://github.com/aruintelligence/aru-remembrance-field). For the separate 1D PDF model, read the [boundedness certificate](./artifacts/invariant-certificate.md), run the [independent numerical audit](./artifacts/audit_reaction_diffusion.py), compare its [recorded JSON](./artifacts/audit_reaction_diffusion.json), and read the [limits and resolved grid challenge](./artifacts/audit-reaction-diffusion.md). These are bounded software checks; the roadmap describes proposed empirical tests.
@@ -43,7 +43,7 @@ The 39 records below are the Zenodo DOI works listed on [Daniel Jacob Read IV’
 | [PART III — THE SOVEREIGN MIND The Laws of Inward Physics™ Series](https://doi.org/10.5281/zenodo.17852075)<br>`10.5281/zenodo.17852075` | Chapters 33–40 pair principles of the Sovereign Mind with eight reflective prompts on attention, witness identity, agency and future imagination. [PDF audit](./artifacts/sovereign-mind-part-iii-source-audit.md). |
 | [PART IV — EXPERIMENTS & PRACTICAL PROTOCOLS The Laws of Inward Physics™ Series](https://doi.org/10.5281/zenodo.17852134)<br>`10.5281/zenodo.17852134` | Chapters 41–54 set a pre/post observation scaffold and offer breath, reciprocity, coherence, intention and memory-mapping practices; results remain to be collected. [PDF audit](./artifacts/practical-protocols-part-iv-source-audit.md). |
 | [PART V — ETHICS, COSMOLOGY & DESTINY (The Laws of Inward Physics™)](https://doi.org/10.5281/zenodo.17852232)<br>`10.5281/zenodo.17852232` | Chapters 55–60 set an autonomy and reciprocal-exchange ethic, then imagine dimensional memory and a future civilization; the afterword addresses the reader. [PDF audit](./artifacts/ethics-cosmology-part-v-source-audit.md). |
-| [Part I — Foundations of Memory-Physics](https://doi.org/10.5281/zenodo.17852355)<br>`10.5281/zenodo.17852355` | Introduces the proposed memory field as a carrier of identity and informational persistence. |
+| [Part I — Foundations of Memory-Physics](https://doi.org/10.5281/zenodo.17852355)<br>`10.5281/zenodo.17852355` | Maps the proposed μ-field and identity framework through twenty short sections on memory, presence, commitment, embodiment and sovereignty. [PDF audit](./artifacts/foundations-part-i-source-audit.md). |
 | [Proof of the Sixth Law of Inward Physics — The Collapse of Time Is the Completion of Pattern (2025)](https://doi.org/10.5281/zenodo.17845327)<br>`10.5281/zenodo.17845327` | Proposes a derivation from a stationary temporal potential; its pointwise premises do not establish the asserted later-time fixed point. |
 | [The Book of Inward Physics – Volume I Foundations of Memory-Field Physics: A Field-Theoretic Model of Inward Time](https://doi.org/10.5281/zenodo.17851542)<br>`10.5281/zenodo.17851542` | Develops a field-theoretic proposal for inward time around the scalar memory-density field. |
 | [The Seventh Law of Inward Physics — The Emergence of Presence from the Void of Completion (2025)](https://doi.org/10.5281/zenodo.17845607)<br>`10.5281/zenodo.17845607` | Proposes Presence from a completed memory field; the awareness expression is undefined operationally and has no reported validation. [PDF audit](./artifacts/seventh-law-source-audit.md). |
@@ -122,6 +122,7 @@ The [canonical lineage index](https://github.com/aruintelligence/divine-whisper-
 - [Original minimal memory-field simulator source audit](./artifacts/minimal-memory-field-ai-source-audit.md) — five-page PDF provenance, a fresh replay of its fixed-source 400-step update, and a clear path to implement the proposed archive trigger.
 - [Companion simulator source audit](./artifacts/companion-memory-field-ai-source-audit.md) — four-page PDF provenance, the cover DOI erratum, replayed variance and integrated-density comparison, verified metadata, and links to the prior software checks. [Issue #12](https://github.com/aruintelligence/aruintelligence/issues/12) tracks both reports' archive mechanism, AI task, and provenance refinements.
 - [Empirical-probes source audit](./artifacts/empirical-probes-source-audit.md) — six-page map of proposed gravimeter, clock, physiological and mycelial tests, published metadata correction, and [issue #13](https://github.com/aruintelligence/aruintelligence/issues/13) for a calibrated preregistered null bound.
+- [Part I Foundations source audit](./artifacts/foundations-part-i-source-audit.md) — ten-page volume and twenty-section map, cover/public title and date provenance, verified metadata, and [issue #19](https://github.com/aruintelligence/aruintelligence/issues/19) for formal crossrefs.
 - [Part V ethics and cosmology source audit](./artifacts/ethics-cosmology-part-v-source-audit.md) — eight-page map of autonomy, reciprocity, speculative future chapters and verified metadata; [issue #18](https://github.com/aruintelligence/aruintelligence/issues/18) tracks a practical review charter.
 - [Part IV practical-protocols source audit](./artifacts/practical-protocols-part-iv-source-audit.md) — eleven-page map of fourteen practice chapters, public metadata correction, and [issue #17](https://github.com/aruintelligence/aruintelligence/issues/17) for a prespecified Exp. 017 breath-response pilot.
 - [Part III Sovereign Mind source audit](./artifacts/sovereign-mind-part-iii-source-audit.md) — nine-page map of chapters 33–40, new public abstract and eleven search terms; [issue #16](https://github.com/aruintelligence/aruintelligence/issues/16) tracks an exercise map and evaluation path.
@@ -164,6 +165,19 @@ For ordinary real square-integrable vector fields on a specified domain, Cauchy-
 
 [Issue #6](https://github.com/aruintelligence/aruintelligence/issues/6) requests operational definitions, normalization, calibration, a held-out test and null baseline, edition provenance, and individual review of six inherited relation directions. No new simulation or empirical result is claimed.
 
+### Day 3 · 2026-10-22 Pacific — follow the framework into formal work
+
+The [Part I volume](https://doi.org/10.5281/zenodo.17852355) gives the Inward Physics program a twenty-section vocabulary of memory, identity, presence, commitment, embodiment and sovereignty. Its [PDF audit](./artifacts/foundations-part-i-source-audit.md) maps the exact ten-page deposit. From there, these distinct public works give a reader a route into equations, computation and proposed tests:
+
+| Stage | Public artifact | What a reader can inspect |
+|---|---|---|
+| Conceptual foundation | [Part I](https://doi.org/10.5281/zenodo.17852355) | The original twenty-section account and its stated μ-field premise. |
+| Formal model | [First Law of Endogenous Registration](https://doi.org/10.5281/zenodo.18159749) | The definition of accumulated registration and the proposed field-history/variance relation. |
+| Numerical work | [First Law numerical checks](https://doi.org/10.5281/zenodo.18168723) | Reported 0D/1D consistency checks under specified model assumptions. |
+| Empirical design | [Experimental Roadmap](https://doi.org/10.5281/zenodo.18708708) | Bounded probes, controls and null expectations for future measurement. |
+
+This is a useful research progression because the conceptual claims, formal equations, computed behavior and prospective observations are available as separate artifacts. [Issue #19](https://github.com/aruintelligence/aruintelligence/issues/19) tracks exact section-to-model references and title provenance so the reading path can become even more precise.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -180,4 +194,4 @@ For ordinary real square-integrable vector fields on a specified domain, Cauchy-
 
 ## Linked artifact count
 
-**115 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 36 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-10-21 UTC.
+**116 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 37 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-10-23 UTC.
