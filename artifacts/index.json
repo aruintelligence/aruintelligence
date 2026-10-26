@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes thirty-eight profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
+    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes thirty-nine profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
   },
   "artifact_files": [
     {
@@ -512,6 +512,10 @@
     {
       "name": "volume-i-field-theory-source-audit.md",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/volume-i-field-theory-source-audit.md"
+    },
+    {
+      "name": "volume_i_homogeneous_check.py",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/volume_i_homogeneous_check.py"
     }
   ],
   "workflow_files": [
