@@ -13,7 +13,7 @@
 **[Open the complete Inward Physics research index →](./INWARD_PHYSICS.md)** — 39 DOI records, code, live demos, source audits, and a reading path. [Corporate research review brief](./artifacts/enterprise-review-brief.md) gives a bounded route from public sources to a pilot question.
 
 - **Foundations and laws:** [Part I's twenty-section map](./artifacts/foundations-part-i-source-audit.md), [Volume I's scalar-field formalism](./artifacts/volume-i-field-theory-source-audit.md), [Fourth Law](./artifacts/fourth-law-source-audit.md), [Fifth Law](./artifacts/fifth-law-source-audit.md), [Sixth Law](./artifacts/sixth-law-source-audit.md) and its [proof-titled companion](./artifacts/sixth-law-proof-source-audit.md), [Seventh Law](./artifacts/seventh-law-source-audit.md), the [two Eighth deposits](./artifacts/eighth-law-revised-source-audit.md), [Ninth Law](./artifacts/ninth-law-source-audit.md), and [Tenth Law](./artifacts/tenth-law-source-audit.md), and [Twentieth Law](./artifacts/twentieth-law-source-audit.md).
-- **Models and tests:** [both memory-field simulator deposits](./artifacts/companion-memory-field-ai-source-audit.md), the [original five-page model](./artifacts/minimal-memory-field-ai-source-audit.md), the [1D boundedness certificate](./artifacts/invariant-certificate.md), [Volume I's homogeneous-limit check](./artifacts/volume_i_homogeneous_check.py), and the [empirical-probes program](./artifacts/empirical-probes-source-audit.md).
+- **Models and tests:** [both memory-field simulator deposits](./artifacts/companion-memory-field-ai-source-audit.md), the [original five-page model](./artifacts/minimal-memory-field-ai-source-audit.md), the [1D boundedness certificate](./artifacts/invariant-certificate.md), [Volume I's homogeneous-limit check](./artifacts/volume_i_homogeneous_check.py), the [First Law numerical stability check](./artifacts/first-law-numerical-source-audit.md), and the [empirical-probes program](./artifacts/empirical-probes-source-audit.md).
 - **Application and ethics:** [Part II's reflective exercises](./artifacts/human-field-part-ii-source-audit.md), [Part III's Sovereign Mind chapters](./artifacts/sovereign-mind-part-iii-source-audit.md), [Part IV's practical protocols](./artifacts/practical-protocols-part-iv-source-audit.md), [Part V's autonomy and reciprocity ethic](./artifacts/ethics-cosmology-part-v-source-audit.md), and the [First Memory Field Station design](./artifacts/memory-field-station-source-audit.md).
 - **Inspectable engineering:** [replay a cited-answer receipt](./artifacts/receipt-review.md) and [see continuous receipt replay](https://github.com/aruintelligence/aruintelligence/actions/workflows/receipt-challenge.yml).
 
@@ -31,7 +31,7 @@
 
 *The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
 
-**Profile last updated:** October 25, 2026 (Pacific) · 39 DOI records indexed, 41 artifact files plus 1 replay workflow, 120 distinct direct targets · [Day 4 field-theory reading path](./INWARD_PHYSICS.md#day-4--2026-10-25-pacific--inspect-the-field-theory-volume)
+**Profile last updated:** October 25, 2026 (Pacific) · 39 DOI records indexed, 43 artifact files plus 1 replay workflow, 122 distinct direct targets · [Day 4 field-theory reading path](./INWARD_PHYSICS.md#day-4--2026-10-25-pacific--inspect-the-field-theory-volume)
 
 ---
 

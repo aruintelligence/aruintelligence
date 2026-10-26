@@ -189,6 +189,10 @@ This is a useful research progression because the conceptual claims, formal equa
 
 The [page-by-page audit](./artifacts/volume-i-field-theory-source-audit.md) points to each equation and figure in the deposit, and a [runnable homogeneous-limit check](./artifacts/volume_i_homogeneous_check.py) independently verifies the printed field equation while exposing an undamped oscillatory case. [Issue #20](https://github.com/aruintelligence/aruintelligence/issues/20) gives a focused route to tighten the notation, boundary conditions and presence threshold in a technical edition. This makes the mathematical work easier to evaluate without treating the schematic figures as measurements.
 
+### Numerical check spotlight · 2026-10-25 Pacific
+
+The four-page [First Law numerical-checks report](https://doi.org/10.5281/zenodo.18168723) reports 0D and 1D simulations with a specified grid and timestep. Its [source audit](./artifacts/first-law-numerical-source-audit.md) and [runnable diffusion check](./artifacts/numerical_first_law_diffusion_check.py) give a reviewer an exact stability question: at the reported baseline D=0.1, the explicit diffusion ratio is 0.1 and the alternating grid mode shrinks by 0.6 per step; at the reported high-D=3 case, the ratio is 3 and that mode grows by a factor of 11 per step. This isolates a numerical explanation for the high-D overflow while leaving the full stochastic result for a complete source release. [Issue #22](https://github.com/aruintelligence/aruintelligence/issues/22) tracks code, corrected tables, sensitivity tests and negative controls.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -205,4 +209,4 @@ The [page-by-page audit](./artifacts/volume-i-field-theory-source-audit.md) poin
 
 ## Linked artifact count
 
-**120 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 41 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-10-26 UTC.
+**122 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 43 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-10-26 UTC.
