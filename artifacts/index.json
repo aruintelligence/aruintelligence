@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-26",
+  "snapshot_utc": "2026-10-27",
   "scope": "39 Zenodo DOI works listed on ORCID 0009-0000-6133-1872; 36 project GitHub repositories and two live demos",
   "zenodo": [
     {
@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes forty-three profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
+    "scope_note": "DOIs are the 39 Zenodo works listed on the ORCID snapshot; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes forty-five profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
   },
   "artifact_files": [
     {
@@ -532,6 +532,14 @@
     {
       "name": "numerical_first_law_diffusion_check.py",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/numerical_first_law_diffusion_check.py"
+    },
+    {
+      "name": "first-law-formal-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/first-law-formal-source-audit.md"
+    },
+    {
+      "name": "first_law_potential_check.py",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/first_law_potential_check.py"
     }
   ],
   "workflow_files": [

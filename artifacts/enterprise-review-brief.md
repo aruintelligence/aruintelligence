@@ -15,6 +15,8 @@
 
 **Numerical diligence example:** The separate [First Law numerical-checks deposit](https://doi.org/10.5281/zenodo.18168723) is a four-page stochastic report. Its [source audit](./first-law-numerical-source-audit.md) and [runnable grid check](./numerical_first_law_diffusion_check.py) derive the high-D explicit-diffusion stability boundary from the deposited grid and timestep. A team can verify that calculation immediately, then use [issue #22](https://github.com/aruintelligence/aruintelligence/issues/22) as a precise request for the complete solver and sensitivity study before evaluating the reported figures.
 
+**Formal-model diligence example:** The [First Law potential audit](./first-law-formal-source-audit.md) derives two attracting equilibria for the coefficient choice in the numerical companion, and its [runnable check](./first_law_potential_check.py) exercises both basins. [Issue #23](https://github.com/aruintelligence/aruintelligence/issues/23) identifies the full source and controlled stochastic tests needed to move from that exact limiting result to the larger simulation claims.
+
 The mathematical and software checks establish properties of disclosed models and implementations. They do not by themselves measure a physical memory field. The [research standards](../RESEARCH_STANDARDS.md) give the evidence vocabulary for that distinction.
 
 ## A reviewable pilot
