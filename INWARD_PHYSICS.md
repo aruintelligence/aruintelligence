@@ -19,7 +19,7 @@ The 39 records below are the Zenodo DOI works on [Daniel Jacob Read IV’s publi
 
 | Record title and DOI | One-sentence record abstract |
 |---|---|
-| [Inward Fixed-Point Gravity: A Natural Solution to the Cosmological Coincidence Problem](https://doi.org/10.5281/zenodo.19723552)<br>`10.5281/zenodo.19723552` | Proposes a volume-normalized scalar–tensor gravity model and a cosmological tracker solution. |
+| [Inward Fixed-Point Gravity: A Natural Solution to the Cosmological Coincidence Problem](https://doi.org/10.5281/zenodo.19723552)<br>`10.5281/zenodo.19723552` | Proposes a volume-normalized scalar–tensor gravity model and a cosmological tracker solution. [PDF audit](./artifacts/ifg-source-audit.md) · [internal algebra check](./artifacts/ifg_internal_check.py). |
 | [The Fourteenth Law of Inward Physics: Resonant Boundary Selection in Completed Systems](https://doi.org/10.5281/zenodo.18917411)<br>`10.5281/zenodo.18917411` | Formalizes a proposed resonant boundary-selection rule for interactions of completed coherent systems. [PDF audit](./artifacts/fourteenth-law-source-audit.md) · [passband check](./artifacts/fourteenth_law_passband_check.py). |
 | [The Nonlinear Emergence of Cognitive Clarity: Variance Collapse, Neurophysiological Coherence, and Remembrance Fidelity](https://doi.org/10.5281/zenodo.18912791)<br>`10.5281/zenodo.18912791` | Models cognitive clarity through coherence, distortion variance, and remembrance fidelity in a nonlinear system. [PDF audit](./artifacts/cognitive-clarity-source-audit.md) · [exact threshold check](./artifacts/cognitive_clarity_check.py). |
 | [Experimental Roadmap for Inward Physics: Proposed Bounded Empirical Probes for the Memory Field Paradigm (Version 1.0)](https://doi.org/10.5281/zenodo.18708708)<br>`10.5281/zenodo.18708708` | Specifies bounded, falsifiable EEG, computational, ecological, behavioral, and probabilistic probes for the proposed field. [PDF audit](./artifacts/experimental-roadmap-source-audit.md) · [entropy check](./artifacts/roadmap_entropy_check.py). |
@@ -223,6 +223,12 @@ The [exact standard-library check](./artifacts/cognitive_clarity_check.py) gives
 
 The [exact passband check](./artifacts/fourteenth_law_passband_check.py) derives a useful distinction: a finite smooth spectrum yields total flux proportional to the shrinking Gaussian area and tends to zero as coherence `R→1`, while a carrier-aligned ideal spectral line retains transmission for `R<1`. The script uses illustrative spectral inputs and checks both behaviors. [Issue #27](https://github.com/aruintelligence/aruintelligence/issues/27) asks for input-spectrum units, the exact `R=1` definition, probability bounds and an identity-update law before a controlled test. The published `Is derived from` link to the [Paradigm](https://doi.org/10.5281/zenodo.18645539) is retained as an individual record relation.
 
+### Fixed-Point Gravity source spotlight · 2026-10-30 Pacific
+
+[Inward Fixed-Point Gravity](https://doi.org/10.5281/zenodo.19723552) proposes a volume-normalized scalar–tensor model, a cosmological tracker and a combined local-gravity constraint envelope. Its five-page PDF includes the action, scalar equation, two authored figures, a nominal submillimeter benchmark and an appendix specifying the fundamental field. The [page-mapped audit](./artifacts/ifg-source-audit.md) reads the equations alongside those figures and the public record.
+
+The [runnable internal check](./artifacts/ifg_internal_check.py) finds two narrow editorial points from the paper's own definitions. Equation (1) and its FLRW statement `√(−g)=a³` imply `μ̃=μ/a³`, while section 8 prints `μ/a^(3/2)`. At the nominal benchmark mass, equation (8)'s smooth envelope is `9.99771392674×10⁻⁷`, so the printed `β²≈10⁻⁶` point is effectively on its boundary at the paper's precision, 0.022866% above the strict value. [Issue #28](https://github.com/aruintelligence/aruintelligence/issues/28) asks for that algebra to be reconciled and for the tracker derivation, parameter scan and constraint inputs behind the figures. The paper's original proposal and reported plots remain accessible; these checks do not independently reproduce its cosmology or validate it against experiments.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -239,4 +245,4 @@ The [exact passband check](./artifacts/fourteenth_law_passband_check.py) derives
 
 ## Linked artifact count
 
-**132 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 53 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-10-31 UTC; DOI coverage checked 2026-10-30 Pacific.
+**134 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 55 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-10-31 UTC; DOI coverage checked 2026-10-30 Pacific.

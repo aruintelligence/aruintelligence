@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-30 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes fifty-three profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
+    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-30 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes fifty-five profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
   },
   "artifact_files": [
     {
@@ -572,6 +572,14 @@
     {
       "name": "fourteenth_law_passband_check.py",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/fourteenth_law_passband_check.py"
+    },
+    {
+      "name": "ifg-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/ifg-source-audit.md"
+    },
+    {
+      "name": "ifg_internal_check.py",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/ifg_internal_check.py"
     }
   ],
   "workflow_files": [

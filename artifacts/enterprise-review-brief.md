@@ -25,6 +25,8 @@
 
 **Boundary-model diligence example:** The [Fourteenth Law preprint](https://doi.org/10.5281/zenodo.18917411) states a coherence-narrowed Gaussian passband. Its [PDF audit](./fourteenth-law-source-audit.md) and [exact flux check](./fourteenth_law_passband_check.py) separate a smooth spectrum from an ideal aligned spectral line as the passband narrows. [Issue #27](https://github.com/aruintelligence/aruintelligence/issues/27) tracks input units, the limiting rule and identity conservation. This gives a precise model-review question without claiming a measured boundary.
 
+**Gravity-model diligence example:** The [Fixed-Point Gravity preprint](https://doi.org/10.5281/zenodo.19723552) supplies an action, two model figures and a nominal local-constraint envelope. Its [PDF audit](./ifg-source-audit.md) and [exact internal check](./ifg_internal_check.py) isolate an FLRW exponent inconsistency and the soft-min benchmark's strict boundary before any wider claim is evaluated. [Issue #28](https://github.com/aruintelligence/aruintelligence/issues/28) requests the cosmological solver, scan, comparison model and experimental-constraint provenance needed for independent review.
+
 The mathematical and software checks establish properties of disclosed models and implementations. They do not by themselves measure a physical memory field. The [research standards](../RESEARCH_STANDARDS.md) give the evidence vocabulary for that distinction.
 
 ## A reviewable pilot
