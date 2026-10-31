@@ -21,6 +21,10 @@
 
 **Experimental pilot diligence example:** The [Roadmap preprint](https://doi.org/10.5281/zenodo.18708708) specifies an EEG attention/control design and explicit falsifiers. The [PDF audit](./experimental-roadmap-source-audit.md) and [synthetic scale check](./roadmap_entropy_check.py) show how its illustrative power calculation can become a prespecified normalized spectral-entropy endpoint; [issue #24](https://github.com/aruintelligence/aruintelligence/issues/24) records the acquisition, analysis and control decisions needed for an actual pilot. No EEG data are represented by that check.
 
+**Cognitive-dynamics diligence example:** The [Cognitive Clarity preprint](https://doi.org/10.5281/zenodo.18912791) proposes attentional, distortion and coherence dynamics plus EEG/HRV predictions. Its [PDF audit](./cognitive-clarity-source-audit.md) and [exact threshold check](./cognitive_clarity_check.py) distinguish reachable and unreachable threshold settings; [issue #26](https://github.com/aruintelligence/aruintelligence/issues/26) frames a parameterized, prespecified pilot. No participant data are supplied by the check.
+
+**Boundary-model diligence example:** The [Fourteenth Law preprint](https://doi.org/10.5281/zenodo.18917411) states a coherence-narrowed Gaussian passband. Its [PDF audit](./fourteenth-law-source-audit.md) and [exact flux check](./fourteenth_law_passband_check.py) separate a smooth spectrum from an ideal aligned spectral line as the passband narrows. [Issue #27](https://github.com/aruintelligence/aruintelligence/issues/27) tracks input units, the limiting rule and identity conservation. This gives a precise model-review question without claiming a measured boundary.
+
 The mathematical and software checks establish properties of disclosed models and implementations. They do not by themselves measure a physical memory field. The [research standards](../RESEARCH_STANDARDS.md) give the evidence vocabulary for that distinction.
 
 ## A reviewable pilot
