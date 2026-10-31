@@ -31,7 +31,7 @@
 
 *The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
 
-**Profile last updated:** October 30, 2026 (Pacific) · all 39 current ORCID DOI records linked, 49 artifact files plus 1 replay workflow, 128 distinct direct targets · [Day 6 Paradigm check](./INWARD_PHYSICS.md#day-6--2026-10-30-pacific--test-the-paradigms-positive-limiting-case)
+**Profile last updated:** October 30, 2026 (Pacific) · all 39 current ORCID DOI records linked, 51 artifact files plus 1 replay workflow, 130 distinct direct targets · [Cognitive Clarity check](./INWARD_PHYSICS.md#cognitive-clarity-spotlight--2026-10-30-pacific)
 
 ---
 
