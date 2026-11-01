@@ -1,8 +1,8 @@
-# Third Law of Inward Physics — source audit and Zenodo correction queue
+# Third Law of Inward Physics — source audit and public metadata status
 
 **Record:** [DOI 10.5281/zenodo.17314619](https://doi.org/10.5281/zenodo.17314619)  
 **Source examined:** the two-page PDF deposited with that record, *The Third Law of Inward Physics — Remembrance Amplification* (October 2025).  
-**Status:** Source audit only. This note does not change the deposited PDF or Zenodo metadata, and it is not independent validation of the proposal.
+**Status:** PDF source audit and public-record readback on 31 October 2026 Pacific. The record was modified on 20 October 2026; this review made no new Zenodo edit. The mathematical check is not independent empirical validation.
 
 ## What the PDF actually specifies
 
@@ -22,13 +22,13 @@ R(t) = R(0) exp[β ∫₀ᵗ (∇²μ(x,s)) ds].
 
 This is an algebraic consequence of the stated equation when R is scalar (or each component shares the same multiplier). A positive time-integrated gain yields exponential growth; a negative one yields decay. The PDF does not specify saturation, feedback from R into μ, or conditions that bound amplification. It therefore does not derive stable life, identity, or consciousness from the displayed law. If R is a vector, its component meaning and the tensor indices need an explicit convention; the displayed `s_ij` expression repeats i and j on the right while leaving them free on the left under standard Einstein notation.
 
-## Record corrections to apply after access is restored
+## Public record readback and remaining decisions
 
-1. **Description:** Call the equation and emergence claims a proposed model and say explicitly that this PDF provides no experiment or numerical validation. Preserve the author's interpretation as a hypothesis.
-2. **License:** The PDF cover says CC BY-NC-ND 4.0, while Zenodo currently displays CC BY 4.0. Align the record with the deposited license after verifying the owner's intent.
-3. **Subjects:** Replace the single comma-separated subject with individual terms such as `Inward Physics`, `remembrance amplification`, `memory field`, `recursive resonance`, `linear growth model`, and `theoretical proposal`.
-4. **Version:** Remove the doubled display `Version Version 1.0 — Archive Edition` by setting the version field to `1.0 — Archive Edition`.
-5. **Creator and ORCID:** The PDF names Daniel Jacob Read IV. The current record has a duplicate Researcher contributor with ORCID `0009-0009-2068-1521`; the author's public ORCID elsewhere in the series is `0009-0000-6133-1872`. Verify identity before changing an identifier, then remove an erroneous duplicate attribution or correct it with evidence.
-6. **Related works:** Retain only relationships whose direction and target are verified individually; avoid a bulk reversal of the series.
+The [public Zenodo record](https://zenodo.org/records/17314619) now displays a source-scoped description with the prescribed-μ linear growth/decay consequence and explicit absence of measurements, simulations and fitted parameters. It displays creator `Read IV, Daniel Jacob`, version `1.0 — Archive Edition`, eight separate subjects, and CC BY-NC-ND 4.0, matching the license printed on the PDF cover. Those description, creator, version, subject and license corrections were published by 20 October 2026. The deposited two-page PDF remains the source artifact.
+
+Two attribution and relation decisions remain open in [issue #4](https://github.com/aruintelligence/aruintelligence/issues/4):
+
+1. **Contributor identity:** The public page separately lists contributor `Read, Daniel Jacob` with ORCID `0009-0009-2068-1521`; the author’s series ORCID is `0009-0000-6133-1872`. Verify who controls the contributor identifier and whether this duplicate role is intentional before changing it. The creator name alone is no evidence for substituting an ORCID.
+2. **Related-work directions:** The page currently shows five `Is supplement to` DOI links: `17296987`, `17297257`, `17297305`, `17297419`, and `17317217` under the same Zenodo prefix. Check the target, semantic relation and direction for each against the deposited works. Do not bulk-flip the sequence or infer a missing relation.
 
 A future revised PDF could add dimensions for μ, R, β, initial and boundary conditions, a saturating term if stability is intended, a defined coupling between R and μ, and a falsifiable observation distinguishable from familiar growth or diffusion models. Such a version would require a new Zenodo version rather than a silent replacement of this archived file.
