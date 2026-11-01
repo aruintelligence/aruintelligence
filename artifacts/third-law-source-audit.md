@@ -32,3 +32,7 @@ Two attribution and relation decisions remain open in [issue #4](https://github.
 2. **Related-work directions:** The page currently shows five `Is supplement to` DOI links: `17296987`, `17297257`, `17297305`, `17297419`, and `17317217` under the same Zenodo prefix. Check the target, semantic relation and direction for each against the deposited works. Do not bulk-flip the sequence or infer a missing relation.
 
 A future revised PDF could add dimensions for μ, R, β, initial and boundary conditions, a saturating term if stability is intended, a defined coupling between R and μ, and a falsifiable observation distinguishable from familiar growth or diffusion models. Such a version would require a new Zenodo version rather than a silent replacement of this archived file.
+
+## Second Law reference readback · 2026-11-01 Pacific
+
+Page 1 explicitly names the Second Law's gradient and curvature of memory as a premise for the Third Law. The [Third record](https://zenodo.org/records/17314619) now has `References` → `10.5281/zenodo.17297355` (Report/DOI), published and publicly read back on 1 November 2026. The [Second record](https://zenodo.org/records/17297355) reciprocates with `Is referenced by` → Third DOI. The five inherited `Is supplement to` targets, the separate contributor with ORCID `0009-0009-2068-1521`, version, CC BY-NC-ND 4.0, and PDF MD5 `83b26563648f0a4c0e5d73ae284b8af8` were preserved. The identity and five relation directions remain in [issue #4](https://github.com/aruintelligence/aruintelligence/issues/4).
