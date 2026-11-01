@@ -56,7 +56,7 @@ The 39 records below are the Zenodo DOI works on [Daniel Jacob Read IV’s publi
 | [The Third Law of Inward Physics — Remembrance Amplification](https://doi.org/10.5281/zenodo.17314619)<br>`10.5281/zenodo.17314619` | Proposes `dR/dt = β(∇²μ)R`; its record now distinguishes this linear model from untested claims about life and identity. [PDF audit](./artifacts/third-law-source-audit.md) · [exact solution check](./artifacts/third-law-check-results.md). |
 | [The Second Law of Inward Physics — The Gradient of Remembrance](https://doi.org/10.5281/zenodo.17297355)<br>`10.5281/zenodo.17297355` | Proposes ∇·R=α∇²μ; a divergence-free component leaves the vector flow undetermined without more conditions. [PDF audit](./artifacts/second-law-gradient-source-audit.md). |
 | [Physics of Manifestation – How the Memory Field Shapes Reality](https://doi.org/10.5281/zenodo.17297257)<br>`10.5281/zenodo.17297257` | Interpretive extension of the proposed field equations; public record has a self-relation and unresolved CC BY/All Rights Reserved wording. [PDF audit](./artifacts/manifestation-source-audit.md). |
-| [The First Law of Inward Physics — Methods & Constants Addendum (2025)](https://doi.org/10.5281/zenodo.17297181)<br>`10.5281/zenodo.17297181` | Defines proposed constants, field dynamics, and test protocols accompanying the first law. |
+| [The First Law of Inward Physics — Methods & Constants Addendum (2025)](https://doi.org/10.5281/zenodo.17297181)<br>`10.5281/zenodo.17297181` | Gives a dimensionless μ convention, algebraic gravity/clock limits and two proposed shielded instrument tests requiring a device-scale effect estimate. [PDF audit](./artifacts/first-law-addendum-source-audit.md). |
 | [The First Law of Inward Physics: A Memory-Field Origin of Mass, Gravity, Time, and Awareness](https://doi.org/10.5281/zenodo.17296987)<br>`10.5281/zenodo.17296987` | Introduces a scalar memory-density proposal linking mass, gravity, and local time rate to the field. |
 
 ## Code and demonstrations
@@ -281,6 +281,12 @@ The public description, version, eight subjects and PDF-aligned license were cor
 
 The record currently links to itself as a supplement and displays CC BY 4.0 beside All Rights Reserved copyright; the PDF also states restrictive rights. [Issue #37](https://github.com/aruintelligence/aruintelligence/issues/37) supplies scoped description text and tracks owner review of the self-link and license history before any Zenodo change.
 
+### First Law addendum source spotlight · 2026-10-31 Pacific
+
+[The Methods & Constants Addendum](https://doi.org/10.5281/zenodo.17297181) turns the First Law proposal into a two-page instrument outline: a shielded MRAM reservoir near a gravimeter or atom interferometer, and paired clocks under randomized activity. Its [PDF audit](./artifacts/first-law-addendum-source-audit.md) checks the chosen `μ=1−Φ/c²` convention and shows that the printed Newtonian-gravity and weak-field-clock limits follow algebraically. The experiment's differentiating prediction still needs an independent device-to-μ coupling and quantitative `δg` or `δτ` effect, with calibrated null and leakage controls.
+
+The October Zenodo correction already scoped the public description and aligned creator, subjects and license with the PDF. [Issue #38](https://github.com/aruintelligence/aruintelligence/issues/38) tracks the source coupling, preregistration details and individual relations to the founding and later laws.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -297,4 +303,4 @@ The record currently links to itself as a supplement and displays CC BY 4.0 besi
 
 ## Linked artifact count
 
-**147 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 68 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-11-01 UTC; DOI coverage checked 2026-10-31 Pacific.
+**148 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 69 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-11-01 UTC; DOI coverage checked 2026-10-31 Pacific.
