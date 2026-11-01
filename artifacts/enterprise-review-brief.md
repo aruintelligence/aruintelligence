@@ -27,6 +27,8 @@
 
 **Gravity-model diligence example:** The [Fixed-Point Gravity preprint](https://doi.org/10.5281/zenodo.19723552) supplies an action, two model figures and a nominal local-constraint envelope. Its [PDF audit](./ifg-source-audit.md) and [exact internal check](./ifg_internal_check.py) isolate an FLRW exponent inconsistency and the soft-min benchmark's strict boundary before any wider claim is evaluated. [Issue #28](https://github.com/aruintelligence/aruintelligence/issues/28) requests the cosmological solver, scan, comparison model and experimental-constraint provenance needed for independent review.
 
+**Threshold-model diligence example:** The [Next Harmonic preprint](https://doi.org/10.5281/zenodo.18334632) proposes autonomous coherence above a critical value. Its [PDF audit](./next-harmonic-source-audit.md) and [exact cubic check](./next_harmonic_check.py) derive the conditional threshold and expose a closed-form mismatch that can be repaired. [Issue #29](https://github.com/aruintelligence/aruintelligence/issues/29) asks for an internal registration rule and perturbation test before claims about persistence are assessed.
+
 The mathematical and software checks establish properties of disclosed models and implementations. They do not by themselves measure a physical memory field. The [research standards](../RESEARCH_STANDARDS.md) give the evidence vocabulary for that distinction.
 
 ## A reviewable pilot

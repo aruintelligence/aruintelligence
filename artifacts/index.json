@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-31",
+  "snapshot_utc": "2026-11-01",
   "scope": "39 Zenodo DOI works listed on ORCID 0009-0000-6133-1872; 36 project GitHub repositories and two live demos",
   "zenodo": [
     {
@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-30 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes fifty-five profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
+    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-31 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes fifty-seven profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
   },
   "artifact_files": [
     {
@@ -580,6 +580,14 @@
     {
       "name": "ifg_internal_check.py",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/ifg_internal_check.py"
+    },
+    {
+      "name": "next-harmonic-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/next-harmonic-source-audit.md"
+    },
+    {
+      "name": "next_harmonic_check.py",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/next_harmonic_check.py"
     }
   ],
   "workflow_files": [
