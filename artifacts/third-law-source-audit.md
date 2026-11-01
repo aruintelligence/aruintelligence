@@ -36,3 +36,7 @@ A future revised PDF could add dimensions for μ, R, β, initial and boundary co
 ## Second Law reference readback · 2026-11-01 Pacific
 
 Page 1 explicitly names the Second Law's gradient and curvature of memory as a premise for the Third Law. The [Third record](https://zenodo.org/records/17314619) now has `References` → `10.5281/zenodo.17297355` (Report/DOI), published and publicly read back on 1 November 2026. The [Second record](https://zenodo.org/records/17297355) reciprocates with `Is referenced by` → Third DOI. The five inherited `Is supplement to` targets, the separate contributor with ORCID `0009-0009-2068-1521`, version, CC BY-NC-ND 4.0, and PDF MD5 `83b26563648f0a4c0e5d73ae284b8af8` were preserved. The identity and five relation directions remain in [issue #4](https://github.com/aruintelligence/aruintelligence/issues/4).
+
+## Founding First Law reference readback · 2026-11-01 Pacific
+
+The Third Law PDF page 1 also names the First Law as the earlier mass-as-memory premise. Its [public record](https://zenodo.org/records/17314619) now retypes founding DOI `17296987` from `Is supplement to` to `References`, reciprocal to founding `Is referenced by` Third, and retains the separate `References` → Second Law link. Four inherited `Is supplement to` targets remain for individual review. The creator, unresolved separate contributor ORCID, CC BY-NC-ND 4.0, version and original PDF MD5 `83b26563648f0a4c0e5d73ae284b8af8` were preserved. Public readback showed 1 November 2026 modified date.
