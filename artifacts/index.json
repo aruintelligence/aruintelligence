@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-31 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes sixty-six profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
+    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-31 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes sixty-seven profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
   },
   "artifact_files": [
     {
@@ -624,6 +624,10 @@
     {
       "name": "habit-force-source-audit.md",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/habit-force-source-audit.md"
+    },
+    {
+      "name": "second-law-gradient-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/second-law-gradient-source-audit.md"
     }
   ],
   "workflow_files": [

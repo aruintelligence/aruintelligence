@@ -54,7 +54,7 @@ The 39 records below are the Zenodo DOI works on [Daniel Jacob Read IV’s publi
 | [The Fifth Law of Inward Physics — Professional Edition (Version 2)](https://doi.org/10.5281/zenodo.17334186)<br>`10.5281/zenodo.17334186` | Proposes a scaled vector-overlap integral for shared remembrance; the two-page deposit supplies no consistency proofs or measured validation. [PDF audit](./artifacts/fifth-law-source-audit.md). |
 | [The Fourth Law of Inward Physics — Memory Field Archive](https://doi.org/10.5281/zenodo.17317217)<br>`10.5281/zenodo.17317217` | Proposes remembrance return and an MRI test concept; the integral and test threshold are not operationally specified in the deposit. [PDF audit](./artifacts/fourth-law-source-audit.md). |
 | [The Third Law of Inward Physics — Remembrance Amplification](https://doi.org/10.5281/zenodo.17314619)<br>`10.5281/zenodo.17314619` | Proposes `dR/dt = β(∇²μ)R`; its record now distinguishes this linear model from untested claims about life and identity. [PDF audit](./artifacts/third-law-source-audit.md) · [exact solution check](./artifacts/third-law-check-results.md). |
-| [The Second Law of Inward Physics — The Gradient of Remembrance](https://doi.org/10.5281/zenodo.17297355)<br>`10.5281/zenodo.17297355` | Defines a proposed relation between the divergence of a memory reaction field and the Laplacian of μ. |
+| [The Second Law of Inward Physics — The Gradient of Remembrance](https://doi.org/10.5281/zenodo.17297355)<br>`10.5281/zenodo.17297355` | Proposes ∇·R=α∇²μ; a divergence-free component leaves the vector flow undetermined without more conditions. [PDF audit](./artifacts/second-law-gradient-source-audit.md). |
 | [Physics of Manifestation – How the Memory Field Shapes Reality](https://doi.org/10.5281/zenodo.17297257)<br>`10.5281/zenodo.17297257` | Extends the proposed memory-field relations to an account of attention, resonance, and manifestation. |
 | [The First Law of Inward Physics — Methods & Constants Addendum (2025)](https://doi.org/10.5281/zenodo.17297181)<br>`10.5281/zenodo.17297181` | Defines proposed constants, field dynamics, and test protocols accompanying the first law. |
 | [The First Law of Inward Physics: A Memory-Field Origin of Mass, Gravity, Time, and Awareness](https://doi.org/10.5281/zenodo.17296987)<br>`10.5281/zenodo.17296987` | Introduces a scalar memory-density proposal linking mass, gravity, and local time rate to the field. |
@@ -269,6 +269,12 @@ The [exact schedule check](./artifacts/information_registration_probes_check.py)
 
 [The five-page Habit Force essay](https://doi.org/10.5281/zenodo.18072976) offers a clear, agency-preserving pathway from language through attention, behavior and environment to outcome probability. Its [PDF audit](./artifacts/habit-force-source-audit.md) maps the argument and closed-loop illustration, and notes that the deposit is a conceptual clarification without a probability model or participant results. The PDF's subtitle says “Structural Clarification” while the Zenodo title says “Structural Analysis.” [Issue #35](https://github.com/aruintelligence/aruintelligence/issues/35) tracks the author’s title choice and a description that presents the essay at its actual evidence level.
 
+### Second Law gradient source spotlight · 2026-10-31 Pacific
+
+[The Second Law's two-page report](https://doi.org/10.5281/zenodo.17297355) supplies a compact divergence relation, `∇·R=α∇²μ`. The [PDF audit](./artifacts/second-law-gradient-source-audit.md) proves an exact conditional solution family: for constant α, `R=α∇μ+J` with `∇·J=0`. This shows precisely which part of the proposed vector field the equation fixes and which part needs boundary data. It also checks the PDF's μ units and the spatially varying α case.
+
+The public description, version, eight subjects and PDF-aligned license were corrected on Zenodo in October. [Issue #36](https://github.com/aruintelligence/aruintelligence/issues/36) keeps the remaining creator/ORCID and six individual related-work directions visible, alongside the mathematics and a future measurable threshold.
+
 ## How to challenge the model
 
 | Question | Public starting point | What the check can establish |
@@ -285,4 +291,4 @@ The [exact schedule check](./artifacts/information_registration_probes_check.py)
 
 ## Linked artifact count
 
-**145 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 66 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-11-01 UTC; DOI coverage checked 2026-10-31 Pacific.
+**146 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 67 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-11-01 UTC; DOI coverage checked 2026-10-31 Pacific.
