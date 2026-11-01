@@ -358,7 +358,7 @@
     "orcid": "https://orcid.org/0009-0000-6133-1872",
     "profile_registry": "https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md",
     "zenodo_api_record_pattern": "https://zenodo.org/api/records/{id}",
-    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-31 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes fifty-nine profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
+    "scope_note": "DOIs are the 39 Zenodo works on the public ORCID record, rechecked 2026-10-31 Pacific; GitHub links are the 36 related public repositories inventoried for the landing page. The artifact_files list indexes sixty profile-repository source, audit, review, and metadata files; the workflow is indexed separately."
   },
   "artifact_files": [
     {
@@ -596,6 +596,10 @@
     {
       "name": "sovereign_continuum_check.py",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/sovereign_continuum_check.py"
+    },
+    {
+      "name": "sovereign-continuum-document-i-source-audit.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/sovereign-continuum-document-i-source-audit.md"
     }
   ],
   "workflow_files": [
