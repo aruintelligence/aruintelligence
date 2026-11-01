@@ -301,6 +301,10 @@ The public Zenodo description, creator, subjects and CC BY 4.0 license were corr
 | Do results survive changed assumptions and negative controls? | Use the [Experimental Roadmap](https://doi.org/10.5281/zenodo.18708708) to predeclare a bounded probe, null expectation, sensitivity range, and analysis before collecting data. | Whether a specific prediction survives a documented test; it may fail. |
 | Is μ a measured physical field? | Publish methods, raw observations, calibration, and independent replication tied to a prespecified observable. | A later empirical claim could be evaluated; the linked simulations alone do not establish one. |
 
+## Record-owner metadata queue
+
+The [Zenodo correction queue](./artifacts/zenodo-owner-correction-queue.md) lists the source-backed edits and unresolved relation, identity and rights decisions for the first eleven priority records. All 39 DOI rows above link a PDF audit; a GitHub audit is a review artifact, while a Zenodo change is counted only after public record readback.
+
 ## Provenance and scope
 
 - [The First Law research blog](https://thefirstlawofinwardphysics.blogspot.com/) · [ORCID](https://orcid.org/0009-0000-6133-1872) · [public repository registry](https://github.com/aruintelligence/aruintelligence/blob/main/PROJECT_STATUS.md).
@@ -309,4 +313,4 @@ The public Zenodo description, creator, subjects and CC BY 4.0 license were corr
 
 ## Linked artifact count
 
-**149 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 70 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-11-01 UTC; DOI coverage checked 2026-10-31 Pacific.
+**150 distinct direct artifact targets:** 39 Zenodo DOI records + 36 GitHub code repositories + 2 live demonstrations + 1 direct numerical-checks PDF + 71 files in the artifact folder + 1 workflow file. ORCID, blog, workflow runs, publication log, and profile navigation links are excluded; repeated links count once. The two Eighth DOI records count as distinct DOI targets while their PDFs have identical bytes. Snapshot: 2026-11-01 UTC; DOI coverage checked 2026-10-31 Pacific.
