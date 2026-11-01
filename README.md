@@ -31,7 +31,7 @@
 
 *The dates are the repositories' last-pushed timestamps checked on 2026-10-20 UTC, before this navigation update. The papers and demonstrations are project-authored proposals and models, not independent validation of a physical law.*
 
-**Profile last updated:** October 31, 2026 (Pacific) · all 39 current ORCID DOI records linked, 65 artifact files plus 1 replay workflow, 144 distinct direct targets · [Day 7 coherence threshold](./INWARD_PHYSICS.md#day-7--2026-10-31-pacific--make-the-coherence-threshold-reproducible)
+**Profile last updated:** October 31, 2026 (Pacific) · all 39 current ORCID DOI records linked, 66 artifact files plus 1 replay workflow, 145 distinct direct targets · [Day 7 coherence threshold](./INWARD_PHYSICS.md#day-7--2026-10-31-pacific--make-the-coherence-threshold-reproducible)
 
 ---
 
