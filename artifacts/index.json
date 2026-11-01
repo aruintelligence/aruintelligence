@@ -644,6 +644,10 @@
     {
       "name": "zenodo-owner-correction-queue.md",
       "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/zenodo-owner-correction-queue.md"
+    },
+    {
+      "name": "information-registration-probes-zenodo-edit-packet.md",
+      "url": "https://github.com/aruintelligence/aruintelligence/blob/main/artifacts/information-registration-probes-zenodo-edit-packet.md"
     }
   ],
   "workflow_files": [
