@@ -53,3 +53,18 @@ The PDF does not itself label an edition or version number. The cleaned record v
 Define the vector space, units, domain/measure, observable, normalization, calibration, and held-out test before treating the proposal as an evaluated model. A normalized overlap could be a future design choice; it is not already the printed expression. Review all six relation directions individually against the target sources, and verify edition provenance before making further archival claims.
 
 **Sequential DOI handoff:** review the Sixth Law, DOI 10.5281/zenodo.17845106, next; its separate proof-titled record 10.5281/zenodo.17845327 requires its own PDF review afterward.
+
+## Six related works: individual public readback · 1 November 2026
+
+The live Fifth Law record still groups these six DOIs under **`Is supplement to`**; it displays “Log in,” so this audit did not change the Zenodo relations. The Fifth Law PDF's page 2 table summarizes the first five laws, while page 1 introduces its own two-field overlap. A table of earlier laws establishes series context; it does not, by itself, establish that this Fifth Law PDF is a supplement to each target.
+
+| Current target DOI | Deposited target evidence | Record-owner relation decision |
+|---|---|---|
+| [17296987](https://zenodo.org/records/17296987) · original First Law | Seven-page founding field proposal. Fifth Law uses the memory-field vocabulary. | **Plausible foundational dependency.** Check whether `Is derived from`, `References`, or `Is supplement to` best states the intended relationship; compare both record sides. |
+| [17297181](https://zenodo.org/records/17297181) · Methods & Constants Addendum | Two-page addendum to the First Law with constants and proposed instruments. Fifth Law does not extend those methods in its printed integral. | **Unestablished supplement.** Ask the author for a specific passage or provenance before retaining this semantic type; otherwise consider a citation or remove the unsupported relation. |
+| [17297257](https://zenodo.org/records/17297257) · Physics of Manifestation | Two-page interpretive extension based on First Law; its public record has an unrelated self-link problem. | **Unestablished supplement.** Do not use the target's self-link as support. Verify a direct dependency or retype/remove individually. |
+| [17297355](https://zenodo.org/records/17297355) · Second Law | Two-page divergence relation for a memory reaction field, with later-work plans. | **Possible conceptual lineage.** The Fifth Law's vector overlap is distinct from the divergence equation; document the intended link before choosing a relation type. |
+| [17314619](https://zenodo.org/records/17314619) · Third Law | Two-page amplification equation, appearing earlier in the series. | **Possible series context.** The Fifth Law summary table is not evidence of a mathematical derivation; verify a direct supplement claim. |
+| [17317217](https://zenodo.org/records/17317217) · Fourth Law | Two-page remembrance-return proposal and MRI test concept. | **Possible series context.** Check whether this is a citation, an extension, or an actual supplement, and inspect the reciprocal side. |
+
+The target-page PDF audits are [First Law](./first-law-original-source-audit.md), [addendum](./first-law-addendum-source-audit.md), [Manifestation](./manifestation-source-audit.md), [Second](./second-law-gradient-source-audit.md), [Third](./third-law-source-audit.md), and [Fourth](./fourth-law-source-audit.md). This is a **relation review**, not six verified Zenodo corrections. Keep the six current public links in the audit history until an owner edit and readback record exactly which were kept, retyped or removed.
