@@ -36,3 +36,7 @@ Public readback confirmed description, creator, twelve subjects, rights, and Oct
 ## Ninth Law reference readback · 2026-11-01 Pacific
 
 The page-1 abstract and introduction explicitly identify the Ninth Law's sustained-orientation commitment proposal as an input to the Tenth Law accounting framework. [Tenth DOI 10.5281/zenodo.18051629](https://zenodo.org/records/18051629) was therefore given `References` → [Ninth DOI 10.5281/zenodo.18049220](https://zenodo.org/records/18049220) (Report/DOI), with the reciprocal `Is referenced by` on Ninth. Both public records were read back on 1 November 2026. Tenth's title, description, `v1.0 — Archive Edition`, restrictive rights, and original PDF MD5 `8409293a5bec1b731b179a6b12e4b7e6` remain. The two Eighth records contain identical PDFs with distinct version metadata; no arbitrary Eighth DOI was selected here.
+
+## PDF-cover title alignment · 2026-11-01 Pacific
+
+The [public Tenth Law record](https://zenodo.org/records/18051629) now uses the full page-1 cover title, “The Tenth Law of Inward Physics — Conservation of Coherence and the Alignment Economy.” The earlier catalog title ended after “Conservation of Coherence.” Public readback confirmed the new heading, retained Ninth Law reference and unchanged PDF MD5 `8409293a5bec1b731b179a6b12e4b7e6`. The [landing row](../INWARD_PHYSICS.md) and [JSON index](../research-index.json) now match. The earlier retained-title statement above is a dated October 20 snapshot.
