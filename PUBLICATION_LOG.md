@@ -512,3 +512,7 @@ Each row is an independent commit adding the standard landing/ORCID/Zenodo-index
 ## Ninth Law cover-title alignment · 2026-11-01 Pacific
 
 - [Ninth Law DOI 18049220](https://zenodo.org/records/18049220): Aligned the catalog title to the deposited PDF cover and edition as “The Ninth Law of Inward Physics — Commitment Crystallizes Outcome: A Sealed-Field Toy Model (5000-Year Tech Edition).” The contribution-led numerical description, Tenth Law reciprocal link, rights, version display and original PDF MD5 `0c6fd4c7a2ce40c28b88c2a4185ba945` remain. Public record readback verified the title; the landing row and JSON index were updated to match. No new direct artifact target was added, so the count remains **151**.
+
+## Tenth Law cover-title alignment · 2026-11-01 Pacific
+
+- [Tenth Law DOI 18051629](https://zenodo.org/records/18051629): Restored the deposited PDF cover’s full title, “The Tenth Law of Inward Physics — Conservation of Coherence and the Alignment Economy,” in the public Zenodo record. Its contribution-led description, Ninth Law reference, restrictive rights, version label and original PDF MD5 `8409293a5bec1b731b179a6b12e4b7e6` remain. Public readback verified the heading; the landing row and JSON index now match. No new direct artifact target was added; the distinct count remains **151**.
